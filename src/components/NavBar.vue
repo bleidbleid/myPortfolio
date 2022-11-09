@@ -20,14 +20,13 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
 
-              <router-link v-for="item in navigation" :to="{ name: item.to }" class="text-xl"
+              <router-link v-for="item in navigation" :to="{ name: item.to }" class="text-2xl"
                 :class="[item.current ? 'text-accent' : 'text-main hover:text-semantic hover:cursor-pointer', 'px-3 py-2 rounded-md text-sm font-medium']">
                 {{ item.name }}
               </router-link>
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -42,7 +41,7 @@
 </template>
 
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/vue'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 // import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { ref } from 'vue';
 
@@ -56,7 +55,7 @@ const selected = ref(false)
 
 //TODO fer que la logica sigui instantania
 const navigation = [
-  { name: 'About', to: 'about', current: myUrlPosition === "about" ? true : false},
+  { name: 'About', to: 'about', current: myUrlPosition === "about" ? true : false },
   { name: 'Projects', to: 'projects', current: myUrlPosition === "projects" ? true : false },
   { name: 'Contact', to: 'contact', current: myUrlPosition === "contact" ? true : false },
 ]
