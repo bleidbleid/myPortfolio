@@ -5,20 +5,18 @@
             <h1 class="text-5xl font-bold "> <span class="projects-underline"> Projects</span></h1>
             
             <section v-for="project in myProjects">
-                <router-view>
-                    <router-link :to="{ name: 'project', params: { id: `${project.id}` }}" class="text-2xl"> {{ project.name }}</router-link>
-                </router-view>
+                    <router-link :to="{ name: 'project', params: { id: `${project.id}` }}"> {{ project.name }}</router-link>
+                    
         </section>
+        <router-view></router-view>
         </div>
     </main>
 </template>
   
 <script setup>
 import { ref } from 'vue';
-
 import projects from "../data/projects.json";
 const myProjects = ref(projects)
-console.log(myProjects)
 </script>
 
 <style>

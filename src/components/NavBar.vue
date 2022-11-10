@@ -46,12 +46,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { ref } from 'vue';
 
 const myUrl = ref(window.location.href)
-console.log(myUrl.value.split("/"))
 const myUrlSplited = myUrl.value.split("/")
 const myUrlPosition = myUrlSplited[myUrlSplited.length - 1]
-console.log(myUrlPosition)
-console.log(myUrlPosition)
-const selected = ref(false)
 
 //TODO fer que la logica sigui instantania
 const navigation = [

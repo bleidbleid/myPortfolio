@@ -1,0 +1,220 @@
+[
+    {
+        "id": "toska",
+        "name": "Toska",
+        "subtitle": "Interactive installation",
+        "description": "The “TOSKA” project consists of creating an interactive and immersive experience in a space where the user can express what is inside him in a personal way. The technical part of the project consists of a Raspberry Pi 4, a microphone, five LED strips and Python code.",
+        "pictureUrl": [
+            "/public/projects/toska/img1.jpg"
+        ]
+    },
+    {
+        "id": "dissenyem-comerç",
+        "name": "Dissenyem comerç",
+        "subtitle": "Research, Exploration & Product - Ajuntament de Barcelona",
+        "description": "Collaboration with the Eix Comercial de Sants-Las Cortes, the Design Museum and Barcelona Activa to carry out an itinerant action in the streets of these neighbourhoods and gather opinions from local residents on local commerce in order to promote commerce in the city.",
+        "pictureUrl": [
+            "/public/projects/dissenyem-comerç/img1.jpg",
+            "/public/projects/dissenyem-comerç/img2.jpg"
+        ]
+    },
+    {
+        "id": "haptic-pants",
+        "name": "Haptic Pants",
+        "subtitle": "Product - Adidas MAKER Lab",
+        "description": "",
+        "pictureUrl": "11.622713"
+    },
+    {
+        "id": "call-me",
+        "name": "Call Me",
+        "subtitle": "Presentation card - Adidas MAKER Lab",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "guiri",
+        "name": "Guiri",
+        "subtitle": "Product - Adidas MAKER Lab",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "ludocontact",
+        "name": "Ludocontact",
+        "subtitle": "Interactive product",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "siau",
+        "name": "Siau",
+        "subtitle": "Concept, UX & UI",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "urbaservei",
+        "name": "Urbaservei",
+        "subtitle": "UX & UI",
+        "description": "Mobile app for Urbaser, a company in charge of waste management and collection, to be used during the service. The project was developed during 3 months. It began with a UX Research and ended up with the design of the app.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "reflexionar",
+        "name": "Reflex(ionar)",
+        "subtitle": "Audivisual piece",
+        "description": "(This video has been made under the premise of making a self-portrait in a 30-second video format).“These days I have been reflecting on self-portraits. I've been looking inside myself and I've lost myself. I have looked in the mirror without finding myself, without recognising myself. That's why I've reflected one mirror in another, to reflect and reflect myself trying to see myself. And instead of seeing better I have lost myself even more”.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "haveyou",
+        "name": "Have you?",
+        "subtitle": "Interactive installation",
+        "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "encara",
+        "name": "En-cara",
+        "subtitle": "Interactive installation",
+        "description": "Based on the festivities at the Palace of Versailles in the 17th and 18th centuries and using Protopixel technology and a low-resolution billboard of 48x18 pixels, En-cara was created. It is an interactive installation that uses Processing to detect the faces of individuals. The programme hides the face of the people it detects behind a red dot and projects this image onto the *billboard, thus guiding the public's attention to that person. In this way, the sensation of tension that was generated in the partygoers when standing before the king is reproduced, with the feeling that every action or movement that is made will be analysed and judged but without giving absolute prominence by hiding their identity.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "patothom",
+        "name": "Pa'Tothom",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "sensual-llobregat",
+        "name": "Sensual Llobregat",
+        "subtitle": "Research & Exploration",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "videotabulo",
+        "name": "Videotabulo",
+        "subtitle": "Interactive product",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "pull",
+        "name": "Pull",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "id": "homoj",
+        "name": "Homoj",
+        "subtitle": "Interactive installation",
+        "description": "Nowadays, technology is seen as the enemy, something against human nature, something that separates, divides and isolates us, but this work was created during a technological event that brought together thousands of people, the LlumBCN festival, and that is what this work explains. It consists of five luminous tubes that use a camera to detect whether people are united or separated. The more united people are, the more it lights up",
+        "pictureUrl": ""
+    },
+    {
+        "id": "anti-poluo",
+        "name": "Anti-Poluo",
+        "subtitle": "Research & Exploration",
+        "description": "This is a visual tool for citizen participation to raise awareness among the population and make them participate in the collection of data on pollution in their own neighbourhood/city, in this case, Ciutat Vella. This artefact, with the same format as the original Pantone cards, allows us to visualise pollution in the Gothic Quarter, according to the brutality it leaves on the walls. The last card of the artefact is perforated so that the user can enlarge the catalogue by standing in front of a wall and taking a photograph. The camera, the map, the stickers and the photographers are for documenting what the user detects.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "cubeperate",
+        "name": "Cubeperate",
+        "subtitle": "Interactive product",
+        "description": "Cubeperate is a cube with 20 holes where cooperation is necessary to transport the maximum amount of water and, therefore, serves to quantify it. It was developed as an interactive artefact to discuss future scenarios and generate debate on the importance of collaboration when making decisions that affect a community.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "portadores",
+        "name": "Portadores de vida",
+        "subtitle": "UX & UI",
+        "description": "Mobile game that explains the way of life in a speculative world where gender is censored, specifically the ritual of the arrival of babies. It involved working on wireframes in both high and low resolution, flowcharts and establishing a colour palette and graphic identity.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "braves",
+        "name": "Braves per Skype",
+        "subtitle": "Audivisual piece",
+        "description": "This project was carried out at a time of physical and social isolation where we miss sharing experiences with the people we hold dear and almost everything has become digital. This proposal allows people to interact with the physical environment while breaking the barrier of the screen, sharing the experience with someone who is not physically on the side but who, even so, shares a tangible experience. In other words, the virtual environment intervenes in the physical environment.",
+        "pictureUrl": ""
+    },
+    {
+        "id": "beinal",
+        "name": "La Beïnal",
+        "subtitle": "Service design",
+        "description": "This proposal aims to encourage cooperation between neighbours (and also small businesses and services) and to promote more sustainable habits that provide sovereignty in the communities. We analysed the potential of the Sant Antoni neighbourhood and detected a poor use of rooftop space, and to find out exactly how many square metres could benefit from an alternative use, we carried out an exhaustive study. The final formalisation consisted of informative flyers, a proposal for the redesign of a neighbourhood community and two products to promote sovereignty: DEIXAM, a panel for sharing products and cures; and SEU, a collection of multipurpose furniture. La Beïnal is a proposal for a cooperative that accompanies neighbourhood communities in processes of conscience building with a vocation to work collectively for their sovereignty and sustainability. The various ways of intervening in the community would be publicised through information leaflets and there would be accompaniment and monitoring throughout the process, raising various possibilities in the community and generating new ones collectively.",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    },
+    {
+        "name": "",
+        "subtitle": "",
+        "description": "",
+        "pictureUrl": ""
+    }
+]
