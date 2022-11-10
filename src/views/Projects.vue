@@ -1,15 +1,19 @@
 
 <template>
-    <main>
-        <div class="h-[600px] px-[64px] font-display">
-            <h1 class="text-5xl font-bold "> <span class="projects-underline"> Projects</span></h1>
-            
-            <section v-for="project in myProjects">
-                    <router-link :to="{ name: 'project', params: { id: `${project.id}` }}"> {{ project.name }}</router-link>
-                    
+    <main class="h-[600px] px-[64px] font-display">
+        <h1 class="text-5xl font-bold mb-8"> <span class="projects-underline"> Projects</span></h1>
+        <section class="flex">
+            <aside>
+                    <h4 v-for="project in myProjects">
+                        <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"> {{ project.name }}</router-link>
+                    </h4>
+            </aside>
+            <img class="px-10" src="/separator-projects.svg" alt="">
+            <section>
+
+                <router-view></router-view>
+            </section>
         </section>
-        <router-view></router-view>
-        </div>
     </main>
 </template>
   
