@@ -1,6 +1,6 @@
 <template>
     <div class="h-[600px] px-[64px] font-display">
-        <h1 class="text-5xl font-bold "> <span class="name-underline"> About me</span></h1>
+        <h1 class="text-5xl font-bold "> <span class="name-underline"> About</span></h1>
         <main>
 
         </main>
