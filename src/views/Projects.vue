@@ -3,21 +3,22 @@
     <main>
         <div class="h-[600px] px-[64px] font-display">
             <h1 class="text-5xl font-bold "> <span class="projects-underline"> Projects</span></h1>
-            <ul>
-                
-                <li>
-                    <router-link :to="{ name: 'project', params: { id: 'toska' } }">Toska</router-link>
-                </li>
-                <li>
-                    <router-link :to="{ name: 'project', params: { id: 'dissenyem-comerç' } }">Dissenyem Comerç</router-link>
-                </li>
-            </ul>
-            <router-view></router-view>
+            
+            <section v-for="project in myProjects">
+                <router-view>
+                    <router-link :to="{ name: 'project', params: { id: `${project.id}` }}" class="text-2xl"> {{ project.name }}</router-link>
+                </router-view>
+        </section>
         </div>
     </main>
 </template>
   
 <script setup>
+import { ref } from 'vue';
+
+import projects from "../data/projects.json";
+const myProjects = ref(projects)
+console.log(myProjects)
 </script>
 
 <style>
