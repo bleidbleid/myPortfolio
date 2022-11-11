@@ -1,15 +1,16 @@
 <template>
     <main v-if="!isLoading" class="h-[600px] font-sans max-w-full">
         <h2 class="text-4xl font-bold mb-4 uppercase "> <span class="title-underline"> {{ project.name }}</span></h2>
-        <section class="flex gap-2">
+        <section class="flex gap-10">
 
             <article class="w-6/12">
                 <p class=" "> {{ project.description }}</p>  
             </article>
-            <figure class="w-6/12">
+            <figure class="w-6/12 flex flex-col gap-4">
+                <!--  -->
                 <div v-for="picture in project.pictureUrl"> 
                     <!-- {{ project.pictureUrl }} -->
-                    <img :src="`${project.pictureUrl}`">
+                    <img :src="picture">
                 </div>
             </figure>
         </section>
@@ -26,10 +27,11 @@ const route = useRoute();
 const project = ref();
 const isLoading = ref(true);
 
+
 // onMounted es una funcion que se llama en el momento que el componente esta listo para renderizarse
 onMounted(() => {
     project.value = findProject(route.params.id);
-    console.log(project.value)
+    console.log("hehe", project.value)
     isLoading.value = false;
 })
 
