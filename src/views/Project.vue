@@ -1,11 +1,11 @@
 <template>
-    <section v-if="!isLoading" class="h-[600px] pr-[64px] font-sans flex">
+    <section v-if="!isLoading" class="h-[600px] font-sans flex max-w-full">
         <article>
-        <h2 class="text-4xl font-bold mb-4 uppercase"> <span class="title-underline"> {{ project.name }}</span></h2>
+        <h2 class="text-4xl font-bold mb-4 uppercase "> <span class="title-underline"> {{ project.name }}</span></h2>
             <p class=" "> {{ project.description }}</p>  
         </article>
         <figure>
-            <!-- <img v-for="pictureUrl in project" src="`${project.pictureUrl}`" alt=""> -->
+            <div v-for="picture in project.pictureUrl"> {{ project.pictureUrl }}</div>
         </figure>
 
     </section>
@@ -39,7 +39,7 @@ const findProject = (id) => {
     })
 
 }
-console.log(myProjects.value[0].description)
+console.log(myProjects.value[1].pictureUrl)
 </script>
 <style scoped>
 .title-underline {
