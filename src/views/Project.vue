@@ -1,14 +1,20 @@
 <template>
-    <section v-if="!isLoading" class="h-[600px] font-sans flex max-w-full">
-        <article>
+    <main v-if="!isLoading" class="h-[600px] font-sans max-w-full">
         <h2 class="text-4xl font-bold mb-4 uppercase "> <span class="title-underline"> {{ project.name }}</span></h2>
-            <p class=" "> {{ project.description }}</p>  
-        </article>
-        <figure>
-            <div v-for="picture in project.pictureUrl"> {{ project.pictureUrl }}</div>
-        </figure>
+        <section class="flex gap-2">
 
-    </section>
+            <article class="w-6/12">
+                <p class=" "> {{ project.description }}</p>  
+            </article>
+            <figure class="w-6/12">
+                <div v-for="picture in project.pictureUrl"> 
+                    <!-- {{ project.pictureUrl }} -->
+                    <img :src="`${project.pictureUrl}`">
+                </div>
+            </figure>
+        </section>
+
+    </main>
 </template>
 <script setup>
 import { ref, onMounted, watch } from 'vue';
