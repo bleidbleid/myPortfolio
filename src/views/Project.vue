@@ -6,8 +6,7 @@
             <article class="w-6/12">
                 <p class=" "> {{ project.description }}</p>  
             </article>
-            <figure class="w-6/12 flex flex-col gap-4">
-                <!--  -->
+            <figure id="global" class="w-6/12 flex flex-col gap-4">
                 <div v-for="picture in project.pictureUrl"> 
                     <!-- {{ project.pictureUrl }} -->
                     <img :src="picture">
@@ -50,6 +49,11 @@ const findProject = (id) => {
 console.log(myProjects.value[1].pictureUrl)
 </script>
 <style scoped>
+#global {
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 .title-underline {
     background-image: url(/title-underline.svg);
     background-size: contain;

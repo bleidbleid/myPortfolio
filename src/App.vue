@@ -1,6 +1,6 @@
 <template>
   <NavBar/>
-  <router-view></router-view>
+  <router-view class="h-full"></router-view>
 </template>
 <script setup>
 import { ref } from 'vue';
