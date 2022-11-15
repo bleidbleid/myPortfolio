@@ -8,9 +8,9 @@
                 }}</span> </h3>
                 <p class=" "> {{ project.description }}</p>
                 <a v-if="project.href" target="_blank" :href="project.href"
-                    class="relative mt-6 inline-flex items-center justify-center px-4 py-2 overflow-hidden text-main transition duration-300 ease-out border-2 border-accent rounded-full group">
+                    class="relative mt-6 inline-flex items-center justify-center px-4 py-2 overflow-hidden text-main transition duration-300 ease-out border-2 border-accent hover:border-semantic rounded-full group">
                     <span
-                        class="absolute inset-0 flex items-center justify-center w-full h-full  duration-300 -translate-x-full bg-accent text-background group-hover:translate-x-0 ease">
+                        class="absolute inset-0 flex items-center justify-center w-full h-full  duration-300 -translate-x-full bg-semantic  text-background group-hover:translate-x-0 ease">
                         <svg width="23" height="35" viewBox="0 0 23 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.56445 1C7.56445 5.83153 7.5942 10.6862 8.35219 15.471C8.61807 17.1494 8.87735 18.7378 8.87735 20.4308"

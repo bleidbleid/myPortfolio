@@ -69,7 +69,7 @@
     {
         "id": "urbaservei",
         "name": "Urbaservei",
-        "subtitle": "UX & UI",
+        "subtitle": "UX & UI - Urbaser",
         "description": "Mobile app for Urbaser, a company in charge of waste management and collection, to be used during the service. The project was developed during 3 months. It began with a UX Research and ended up with the design of the app.",
         "pictureUrl": [
             ""
@@ -87,7 +87,7 @@
     {
         "id": "haveyou",
         "name": "Have you?",
-        "subtitle": "Interactive installation",
+        "subtitle": "Interactive installation - Elisava",
         "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
         "pictureUrl": [
             "/projects/have-you1.png"
@@ -96,12 +96,11 @@
     {
         "id": "encara",
         "name": "En-cara",
-        "subtitle": "Interactive installation",
+        "subtitle": "Interactive installation - Protopixel",
         "description": "Based on the festivities at the Palace of Versailles in the 17th and 18th centuries and using Protopixel technology and a low-resolution billboard of 48x18 pixels, En-cara was created. It is an interactive installation that uses Processing to detect the faces of individuals. The programme hides the face of the people it detects behind a red dot and projects this image onto the billboard, thus guiding the public's attention to that person. In this way, the sensation of tension that was generated in the partygoers when standing before the king is reproduced, with the feeling that every action or movement that is made will be analysed and judged but without giving absolute prominence by hiding their identity.",
         "pictureUrl": [
             "/projects/encara2.jpeg",
             "/projects/encara1.png"
-
         ]
     },
     {

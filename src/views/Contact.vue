@@ -1,5 +1,5 @@
 <template>
-     <div class="h-[600px] px-[64px] font-display">
+     <div class="min-h-min px-4 md:px-8 lg:px-16 font-display">
         <h1 class="text-5xl font-bold mb-8"> <span class="contact-underline"> Contact</span></h1>
         <main>
 
