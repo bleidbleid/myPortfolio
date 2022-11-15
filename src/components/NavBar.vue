@@ -1,5 +1,5 @@
 <template>
-  <Disclosure as="nav" class="bg-transparent font-display" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-background font-display" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-[64px] sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -19,8 +19,7 @@
 
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-
-              <router-link v-for="item in navigation" :to="{ name: item.to }" class="text-2xl"
+              <router-link @click="changeFunct()" v-for="item in navigation" :to="{ name: item.to }" class="text-2xl"
                 :class="[item.current ? 'text-accent' : 'text-main hover:text-semantic hover:cursor-pointer', 'px-3 py-2 rounded-md text-sm font-medium']">
                 {{ item.name }}
               </router-link>
@@ -42,7 +41,6 @@
 
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-// import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { ref } from 'vue';
 
 const myUrl = ref(window.location.href)
@@ -50,9 +48,9 @@ const myUrlSplited = myUrl.value.split("/")
 const myUrlPosition = myUrlSplited[myUrlSplited.length - 1]
 
 //TODO fer que la logica sigui instantania
-const navigation = [
+const navigation = ref([
   { name: 'About', to: 'about', current: myUrlPosition === "about" ? true : false },
   { name: 'Projects', to: 'projects', current: myUrlPosition === "projects" ? true : false },
   { name: 'Contact', to: 'contact', current: myUrlPosition === "contact" ? true : false },
-]
+])
 </script>

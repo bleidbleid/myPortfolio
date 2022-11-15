@@ -1,6 +1,6 @@
 <template>
-  <NavBar/>
-  <router-view class="h-full"></router-view>
+  <NavBar class="sticky top-0"/>
+  <router-view ></router-view>
 </template>
 <script setup>
 import { ref } from 'vue';

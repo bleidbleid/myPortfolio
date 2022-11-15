@@ -1,15 +1,15 @@
 
 <template>
-    <main class="h-[600px] px-[64px] font-display">
+    <main class="min-h-min px-[64px] font-display">
         <h1 class="text-5xl font-bold mb-8"> <span class="projects-underline"> Projects</span></h1>
-        <section class="flex">
-            <aside class=" block min-w-fit">
+        <section class="flex h-min">
+            <aside class=" block min-w-fit h-min">
                 <h4 v-for="project in myProjects">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"> {{ project.name }}
                     </router-link>
                 </h4>
             </aside>
-            <img class="px-5" src="/separator-projects.svg" alt="">
+            <img class="px-5 h-[500px]" src="/separator-projects.svg" alt="">
             <router-view></router-view>
         </section>
     </main>
