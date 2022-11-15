@@ -1,7 +1,7 @@
 <template>
     <main v-if="!isLoading" class="h-80 font-sans max-w-full">
-        <section class="flex gap-10 h-[500px]">
-            <article class="w-6/12">
+        <section class="flex flex-col sm:flex-row gap-10 h-[500px]">
+            <article class="sm:w-6/12">
                 <h2 class="text-4xl font-bold uppercase"> {{ project.name }}</h2>
 
                 <h3 class="text-2xl font-display uppercase mb-4"> <span class="title-underline">{{ project.subtitle
@@ -33,7 +33,7 @@
                 </a>
             </article>
 
-            <figure id="global" class="w-6/12 flex flex-col gap-4">
+            <figure class="sm:w-6/12 sm:global flex flex-col gap-4">
                 <iframe v-if="project.embed" width="100%" height="100%" :src="project.embed" :title="project.name"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -81,7 +81,7 @@ const findProject = (id) => {
 console.log(myProjects.value[1].pictureUrl)
 </script>
 <style scoped>
-#global {
+.global {
     height: 71vh;
     overflow-x: hidden;
     overflow-y: scroll;
