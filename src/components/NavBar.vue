@@ -1,9 +1,9 @@
 <template>
   <Disclosure as="nav" class="bg-background font-display" v-slot="{ open }">
-    <div class="mx-auto max-w-7xl px-[64px] sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-4 md:px-8 lg:px-16 ">
       <div class="relative flex h-16 items-center justify-between">
+        <!-- Mobile menu button-->
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-          <!-- Mobile menu button-->
           <DisclosureButton
             class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
             <span class="sr-only">Open main menu</span>
@@ -11,15 +11,15 @@
             <i v-else class="block fa fa-bars h-6 w-6" aria-hidden="true"></i>
           </DisclosureButton>
         </div>
-        <div class="flex w-full justify-between">
-          <router-link :to="{ name: 'home' }" class="flex flex-shrink-0 items-center">
+        <div class="flex w-full sm:justify-between justify-center">
+          <router-link :to="{ name: 'home' }">
             <img class="block h-8 w-auto lg:hidden" src="/icon.svg" alt="Maria Bladé" />
             <img class="hidden h-8 w-auto lg:block" src="/icon.svg" alt="Maria Bladé" />
           </router-link>
 
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <router-link @click="changeFunct()" v-for="item in navigation" :to="{ name: item.to }" class="text-2xl"
+              <router-link v-for="item in navigation" :to="{ name: item.to }" class="text-2xl"
                 :class="[item.current ? 'text-accent' : 'text-main hover:text-semantic hover:cursor-pointer', 'px-3 py-2 rounded-md text-sm font-medium']">
                 {{ item.name }}
               </router-link>
