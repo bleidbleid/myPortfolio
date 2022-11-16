@@ -32,8 +32,8 @@
                     <span class="relative invisible">View Project</span>
                 </a>
             </article>
-
-            <figure class="sm:w-6/12 sm:global flex flex-col gap-4">
+<!-- TODO responsive embed -->
+            <figure class="sm:w-6/12 sm:h-[71vh] sm:overflow-x-hidden sm:overflow-y-scroll flex flex-col gap-4">
                 <iframe v-if="project.embed" width="100%" height="100%" :src="project.embed" :title="project.name"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -62,7 +62,7 @@ const isLoading = ref(true);
 // onMounted es una funcion que se llama en el momento que el componente esta listo para renderizarse
 onMounted(() => {
     project.value = findProject(route.params.id);
-    console.log("hehe", project.value)
+    // console.log("hehe", project.value)
     isLoading.value = false;
 })
 
@@ -80,16 +80,11 @@ const findProject = (id) => {
 }
 </script>
 <style scoped>
-.global {
-    height: 71vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
 .title-underline {
     background-image: url(/title-underline.svg);
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
 }
+
 </style>
