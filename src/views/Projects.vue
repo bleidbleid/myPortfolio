@@ -36,26 +36,46 @@
 </template>
   
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import projects from "../data/projects.json";
 import { useRoute } from 'vue-router';
 const route = useRoute();
-
+const isLoading = ref(true);
+const page = ref();
 const myProjects = ref(projects)
 let allProj = ref(true)
-const myUrl = ref(window.location.href)
-const urlLength = ref(myUrl.value.split("/projects/").length)
+// const myUrl = ref(window.location.href)
 
-if (route.name == 'projects') {
-    allProj.value = true;
-} else {
-    allProj.value = false;
-}
+// onMounted es una funcion que se llama en el momento que el componente esta listo para renderizarse
+onMounted(() => {
+    page.value = route.name;
+    console.log(page.value)
+    if (page.value == 'projects') {
+        allProj.value = true;
+        console.log(allProj.value)
 
-console.log(route.name)
-console.log(allProj.value)
+    } else {
+        allProj.value = false;
+        console.log(allProj.value)
 
+    }
+      isLoading.value = false;
+})
 
+watch(() => route.name, newValue => {
+    page.value = route.name;
+    console.log(page.value)
+    if (page.value == 'projects') {
+        allProj.value = true;
+        console.log(allProj.value)
+
+    } else {
+        allProj.value = false;
+        console.log(allProj.value)
+
+    }
+
+})
 
 </script>
 

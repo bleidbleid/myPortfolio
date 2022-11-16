@@ -32,16 +32,16 @@
                     <span class="relative invisible">View Project</span>
                 </a>
             </article>
-<!-- TODO responsive embed -->
+            <!-- TODO responsive embed -->
             <figure class="sm:w-6/12 sm:h-[71vh] sm:overflow-x-hidden sm:overflow-y-scroll flex flex-col gap-4">
                 <iframe v-if="project.embed" width="100%" height="100%" :src="project.embed" :title="project.name"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <div v-for="picture in project.pictureUrl" class="flex flex-col gap-4">
                     <!-- {{ project.pictureUrl }} -->
                     <img :src="picture">
-                  
+
                 </div>
             </figure>
         </section>
@@ -62,13 +62,12 @@ const isLoading = ref(true);
 // onMounted es una funcion que se llama en el momento que el componente esta listo para renderizarse
 onMounted(() => {
     project.value = findProject(route.params.id);
-    // console.log("hehe", project.value)
+    console.log("hehe", project.value.id)
     isLoading.value = false;
 })
 
 watch(() => route.params.id, newValue => {
     project.value = findProject(route.params.id);
-
 })
 
 const findProject = (id) => {
@@ -76,7 +75,6 @@ const findProject = (id) => {
     return projects.find((project) => {
         return project.id === id
     })
-
 }
 </script>
 <style scoped>
@@ -86,5 +84,4 @@ const findProject = (id) => {
     background-position: bottom;
     background-repeat: no-repeat;
 }
-
 </style>
