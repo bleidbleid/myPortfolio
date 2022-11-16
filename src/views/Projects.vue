@@ -16,12 +16,12 @@
             <img v-show="!allProj" class="hidden sm:block px-5 h-[500px]" src="/separator-projects.svg" alt="">
             <article class="columns-1 md:columns-2 lg:columns-4 gapx-2.5 gapy-4">
                 <figure v-show="allProj" v-for="project in myProjects"
-                    class="m-0 grid mb-2.5 break-inside-avoid font-sans figure">
+                    class="m-0 grid mb-2.5 break-inside-avoid uppercase font-normal figure">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }">
                         <img class="max-w-full block justify-self-start" :src="project.pictureUrl[0]"
                             alt="A windmill" />
                         <figcaption
-                            class="row-span-2 col-span-1 bg-[url('/miniature-project.svg')] transition-all duration-300 transform group-hover:translate-x-full ease hover:bg-[url('/miniature-hover-project.svg')] bg-contain bg-center bg-no-repeat font-bold p-2 text-center">
+                            class="row-span-2 col-span-1  bg-[url('/miniature-project.svg')] transition-all duration-300 transform group-hover:translate-x-full ease hover:bg-[url('/miniature-hover-project.svg')]  bg-contain bg-center bg-no-repeat p-2 text-center">
                             <h5>
 
                                 {{ project.name }}
@@ -50,29 +50,28 @@ let allProj = ref(true)
 onMounted(() => {
     page.value = route.name;
     console.log(page.value)
+
     if (page.value == 'projects') {
         allProj.value = true;
         console.log(allProj.value)
-
     } else {
         allProj.value = false;
         console.log(allProj.value)
-
     }
+
       isLoading.value = false;
 })
 
 watch(() => route.name, newValue => {
     page.value = route.name;
     console.log(page.value)
+
     if (page.value == 'projects') {
         allProj.value = true;
         console.log(allProj.value)
-
     } else {
         allProj.value = false;
         console.log(allProj.value)
-
     }
 
 })
