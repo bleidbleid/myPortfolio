@@ -78,7 +78,6 @@ const findProject = (id) => {
     })
 
 }
-console.log(myProjects.value[1].pictureUrl)
 </script>
 <style scoped>
 .global {
