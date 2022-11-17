@@ -23,3 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 .data/allprojects.json
+.data/allworks.json
+

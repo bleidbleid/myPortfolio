@@ -24,7 +24,6 @@
                             <path d="M4.41309 33.5596H21.2181" stroke="#FDFDFF" stroke-width="2"
                                 stroke-linecap="round" />
                         </svg>
-
                     </span>
                     <span
                         class="absolute flex items-center justify-center w-full h-full text-main  px-4 py-2 transition-all duration-300 transform group-hover:translate-x-full ease">View
@@ -41,7 +40,6 @@
                 <div v-for="picture in project.pictureUrl" class="flex flex-col gap-4">
                     <!-- {{ project.pictureUrl }} -->
                     <img :src="picture">
-
                 </div>
             </figure>
         </section>

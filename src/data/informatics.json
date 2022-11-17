@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Adobe",
+        "descr": "InDesign, Illustrator, Photoshop, After Effects, Premiere"
+    },
+    {
+        "title": "Microsoft",
+        "descr": "Word, PowerPoint, Excel, Teams"
+    },
+    {
+        "title": "Front-end",
+        "descr": "HTML, CSS, Javascript and Vue3"
+    },
+    {
+        "title": "Others",
+        "descr": "Python, Processing i Arduino"
+    }
+]

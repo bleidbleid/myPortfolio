@@ -20,8 +20,9 @@
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }">
                         <img class="max-w-full block justify-self-start" :src="project.pictureUrl[0]"
                             alt="A windmill" />
-                        <figcaption
-                            class="row-span-2 col-span-1  bg-[url('/miniature-project.svg')] transition-all duration-300 transform group-hover:translate-x-full ease hover:bg-[url('/miniature-hover-project.svg')]  bg-contain bg-center bg-no-repeat p-2 text-center">
+                            <!-- style hover quan hovering tota la targeta -->
+                        <figcaption                    
+                            class="row-span-2 col-span-1  bg-[url('/miniature-project.svg')] transition-all duration-300 transform group-hover:translate-x-full ease hover:bg-[url('/miniature-hover-project.svg')] hover:text-semantic  bg-contain bg-center bg-no-repeat p-2 text-center">
                             <h5>
 
                                 {{ project.name }}
