@@ -19,7 +19,7 @@
                     class="m-0 grid mb-2.5 break-inside-avoid uppercase font-normal figure">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }">
                         <img class="max-w-full block justify-self-start" :src="project.pictureUrl[0]"
-                            alt="A windmill" />
+                            alt="Project image" />
                             <!-- style hover quan hovering tota la targeta -->
                         <figcaption                    
                             class="row-span-2 col-span-1  bg-[url('/miniature-project.svg')] transition-all duration-300 transform group-hover:translate-x-full ease hover:bg-[url('/miniature-hover-project.svg')] hover:text-semantic  bg-contain bg-center bg-no-repeat p-2 text-center">
@@ -50,14 +50,14 @@ let allProj = ref(true)
 // onMounted es una funcion que se llama en el momento que el componente esta listo para renderizarse
 onMounted(() => {
     page.value = route.name;
-    console.log(page.value)
+    // console.log(page.value)
 
     if (page.value == 'projects') {
         allProj.value = true;
-        console.log(allProj.value)
+        // console.log(allProj.value)
     } else {
         allProj.value = false;
-        console.log(allProj.value)
+        // console.log(allProj.value)
     }
 
       isLoading.value = false;
@@ -65,14 +65,14 @@ onMounted(() => {
 
 watch(() => route.name, newValue => {
     page.value = route.name;
-    console.log(page.value)
+    // console.log(page.value)
 
     if (page.value == 'projects') {
         allProj.value = true;
-        console.log(allProj.value)
+        // console.log(allProj.value)
     } else {
         allProj.value = false;
-        console.log(allProj.value)
+        // console.log(allProj.value)
     }
 
 })

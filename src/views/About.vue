@@ -8,10 +8,10 @@
                         <span class="education-underline uppercase text-2xl font-bold">Education</span>
                     </h2>
                     <article v-for="course in education" class="mb-6">
-                        <h4 class="font-bold text-sm">{{course.dates}}</h4>
-                        <p class="font-sans font-bold text-lg">{{course.title}}</p>
-                        <p class="font-sans text-md"><span class="ironhack-circle p-1"> {{course.subtitle}}</span></p>
-                        <p>{{course.description}}</p>
+                        <h4 class="font-bold text-sm">{{ course.dates }}</h4>
+                        <p class="font-sans font-bold text-lg">{{ course.title }}</p>
+                        <p class="font-sans text-md"><span> {{ course.subtitle }}</span></p>
+                        <p>{{ course.description }}</p>
                     </article>
                 </section>
                 <section class="mb-10">
@@ -19,22 +19,19 @@
                         <span class="education-underline uppercase text-2xl font-bold">Languages</span>
                     </h2>
                     <article class="mb-6 font-sans text-md">
-                        <p v-for="language in languages"> <b>{{language.lang}}</b> {{language.level}}</p>
+                        <p v-for="language in languages"> <b>{{ language.lang }}</b> {{ language.level }}</p>
                     </article>
                 </section>
-           
                 <section class="mb-10">
                     <h2 class="mb-3">
                         <span class="education-underline uppercase text-2xl font-bold">Informatics</span>
                     </h2>
                     <article class="mb-6 font-sans text-md">
                         <ul class="list-[square]">
-                            <li v-for="info in informatics">{{info.title}}: {{info.descr}}</li>
+                            <li v-for="info in informatics">{{ info.title }}: {{ info.descr }}</li>
                         </ul>
                     </article>
                 </section>
-            </div>
-            <div>
                 <section class="mb-10">
                     <h2 class="mb-3">
                         <span class="education-underline uppercase text-2xl font-bold">Other</span>
@@ -51,19 +48,20 @@
                         </ul>
                     </article>
                 </section>
+            </div>
+            <div>
                 <section class="mb-10">
                     <h2 class="mb-3">
                         <span class="education-underline uppercase text-2xl font-bold">Work experiance</span>
                     </h2>
                     <article v-for="job in work" class="mb-6">
-                        <h4 class="font-bold text-sm">{{job.dates}}</h4>
-                        <p class="font-sans font-bold text-lg">{{job.title}}</p>
-                        <p class="font-sans text-md"> {{job.subtitle}}</p>
-                        <p>{{job.description}}</p>
+                        <h4 class="font-bold text-sm">{{ job.dates }}</h4>
+                        <p class="font-sans font-bold text-lg">{{ job.title }}</p>
+                        <p class="font-sans text-md"> {{ job.subtitle }}</p>
+                        <p>{{ job.description }}</p>
                     </article>
                 </section>
             </div>
-
         </main>
     </div>
 </template>

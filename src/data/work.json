@@ -2,7 +2,20 @@
     {
         "dates": "10/2022 - Barcelona, Spain",
         "title": "Barcelona 48h Open House Volunteer",
-        "subtitle": "Ajuntament de Barcelona"
+        "subtitle": "Ajuntament de Barcelona",
+        "description": "I volunteered to help organise this cultural event and this allowed me to visit many of the buildings from the festival."
+    },
+    {
+        "dates": "06/2021 - 12/2021 - Barcelona, Spain",
+        "title": "Leisure Activities Instructor in English",
+        "subtitle": "Institució Cultural del CIC",
+        "description": "I was in charge of teaching children a language that is not their mother tongue through play and reading. That's why it was necessary to organise the classes using a variety of teaching materials, working interactively with the group."
+    },
+    {
+        "dates": "04/2021 - 06/2021 - Barcelona, Spain",
+        "title": "Interaction Designer",
+        "subtitle": "Innovation lab, Iberboard",
+        "description": "Research and development of uses for a new material."
     },
     {
         "dates": "2020 - CURRENTLY - Barcelona, Spain",
@@ -11,9 +24,9 @@
         "description": "I accompany children with diabetes on school and school trips to help them manage their blood sugar levels. I also supervise them during playtimes."
     },
     {
-        "dates": "2020 - CURRENTLY - Barcelona, Spain",
-        "title": "Accompanying children with diabetes",
-        "subtitle": "Associació de Diabetis de Catalunya",
-        "description": "I accompany children with diabetes on school and school trips to help them manage their blood sugar levels. I also supervise them during playtimes."
+        "dates": "2018 - CURRENTLY - Barcelona, Spain",
+        "title": "Leisure Activities Instructor",
+        "subtitle": "7 i Tria, Pere Tarrés",
+        "description": "Provide leisure activities for children when the parents or family members are unavailable. Look after the children's basic and health needs and help or supervise them during play and even suggest games and activities."
     }
 ]
