@@ -31,7 +31,6 @@ const routes = [
                 name: 'project',
                 component: () => import('../views/Project.vue')
             }
-
         ]
     },
     {

@@ -7,7 +7,8 @@
         "pictureUrl": [
             "/projects/toska1.jpg"
         ],
-        "embed": "https://www.youtube.com/embed/DHHTkYFOaH8"
+        "embed": "https://www.youtube.com/embed/DHHTkYFOaH8",
+        "type": "installation"
     },
     {
         "id": "dissenyem-comerç",
@@ -19,7 +20,8 @@
             "/projects/dissenyem2.jpg"
         ],
         "href": "https://empreses.barcelonactiva.cat/documents/20592/381737/Dissenyem+Comerç-Projecte+Elisava-SAAC.pdf/95e3f4ea-3a65-4fdd-8c1c-dc9853858c07",
-        "embed": "https://www.youtube.com/embed/TqSu4cAMjfM"
+        "embed": "https://www.youtube.com/embed/TqSu4cAMjfM",
+        "type": ""
     },
     {
         "id": "haptic-pants",
@@ -32,7 +34,8 @@
             "/projects/haptic2.jpg",
             "/projects/haptic4.jpg",
             "/projects/haptic5.jpg"
-        ]
+        ],
+        "type": "product"
     },
     {
         "id": "call-me",
@@ -41,7 +44,8 @@
         "description": "Project made...",
         "pictureUrl": [
             "/projects/callme.jpg"
-        ]
+        ],
+        "type": "product"
     },
     {
         "id": "guiri",
@@ -55,7 +59,8 @@
             "/projects/guiri3.jpeg",
             "/projects/guiri5.jpeg",
             "/projects/guiri6.jpeg"
-        ]
+        ],
+        "type": "product"
     },
     {
         "id": "siau",
@@ -71,7 +76,8 @@
             "/projects/siau7.jpg",
             "/projects/siau8.jpg",
             "/projects/siau9.jpg"
-        ]
+        ],
+        "type": "app"
     },
     {
         "id": "urbaservei",
@@ -80,7 +86,8 @@
         "description": "Mobile app for Urbaser, a company in charge of waste management and collection, to be used during the service. The project was developed during 3 months. It began with a UX Research and ended up with the design of the app.",
         "pictureUrl": [
             "/projects/urbaservei1.png"
-        ]
+        ],
+        "type": "app"
     },
     {
         "id": "reflexionar",
@@ -89,7 +96,6 @@
         "description": "(This video has been made under the premise of making a self-portrait in a 30-second video format). “These days I have been reflecting on self-portraits. I've been looking inside myself and I've lost myself. I have looked in the mirror without finding myself, without recognising myself. That's why I've reflected one mirror in another, to reflect and reflect myself trying to see myself. And instead of seeing better I have lost myself even more”.",
         "pictureUrl": [
             "/projects/reflex1.jpg"
-
         ]
     },
     {
@@ -99,7 +105,8 @@
         "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
         "pictureUrl": [
             "/projects/have-you1.png"
-        ]
+        ],
+        "type": "experiance"
     },
     {
         "id": "encara",
@@ -109,7 +116,8 @@
         "pictureUrl": [
             "/projects/encara2.jpeg",
             "/projects/encara1.png"
-        ]
+        ],
+        "type": "experiance"
     },
     {
         "id": "portadores",
@@ -127,6 +135,7 @@
             "/projects/portadores8.png",
             "/projects/portadores9.png",
             "/projects/portadores10.png"
-        ]
+        ],
+        "type": "app"
     }
 ]

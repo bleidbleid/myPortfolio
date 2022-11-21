@@ -5,7 +5,7 @@
             <img src="APPS.svg">
         </div>
         <div class="flier2">
-            <img src="EXPERIENCES.svg">
+            <img src="INSTALLATIONS.svg">
         </div>
         <section class="flex justify-around flex-col mx-auto h-full text-center text-3xl sm:text-4xl lg:text-6xl">
             <article> <span class="hola-container transition-all duration-300 transform ease">Hola! </span> </article>

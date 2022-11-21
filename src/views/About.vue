@@ -1,6 +1,6 @@
 <template>
     <div class="min-h-min px-4 md:px-8 lg:px-16 font-display">
-        <h1 class="text-5xl font-bold mb-8"> <span class="name-underline"> About</span></h1>
+        <h1 class="text-5xl font-bold mb-8"> <span class="about-underline"> About</span></h1>
         <main class="flex flex-col md:flex-row md:gap-12">
             <div>
                 <section class="mb-10">
@@ -75,8 +75,8 @@ import work from "../data/work.json";
 
 </script>
 <style scoped>
-.name-underline {
-    background-image: url(/name-underline.svg);
+.about-underline {
+    background-image: url(/about-underline.svg);
 }
 
 .tfg-underline {
@@ -95,7 +95,7 @@ import work from "../data/work.json";
     background-image: url(/bauhaus-circle.svg);
 }
 
-.name-underline,
+.about-underline,
 .elisava-circle,
 .bauhaus-circle,
 .tfg-underline,
