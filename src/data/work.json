@@ -4,6 +4,17 @@
         "title": "Barcelona 48h Open House Volunteer",
         "subtitle": "Ajuntament de Barcelona",
         "description": "I volunteered to help organise this cultural event and this allowed me to visit many of the buildings from the festival."
+    }, {
+        "dates": "03/2022 - 04/2022 - Barcelona, Spain",
+        "title": "University tour guide",
+        "subtitle": "Elisava, Design and Engineering School",
+        "description": "Assist individuals or groups on university tours in order to share what this institution can offer. Provide information and guidance."
+    },
+    {
+        "dates": "10/2021 - 11/2021 - Barcelona, Spain",
+        "title": "Sustainable Challenge: Industrial Symbiosis: A Booster to Circular Fashion.",
+        "subtitle": "Disseny Hub Barcelona",
+        "description": "Participation in a multidisciplinary challenge to design products or services for the fashion sector. It was part of the Barcelona and Manchester Design Week and culminated with an exhibition of the results at Disseny Hub Barcelona."
     },
     {
         "dates": "06/2021 - 12/2021 - Barcelona, Spain",
@@ -13,9 +24,26 @@
     },
     {
         "dates": "04/2021 - 06/2021 - Barcelona, Spain",
-        "title": "Interaction Designer",
-        "subtitle": "Innovation lab, Iberboard",
+        "title": "Interaction Designer at Iberboard",
+        "subtitle": "Innovation lab",
         "description": "Research and development of uses for a new material."
+    }, {
+        "dates": "02/2021 - 03/2021 - Barcelona, Spain",
+        "title": "Interaction Designer for Global Design Studio",
+        "subtitle": "Melbourne Design Week & Barcelona Design Week",
+        "description": "Participation in a multidisciplinary workshop with students from London and Melbourne that resulted in a Cookbook for Planet Health, which was exhibited at the Melbourne Design Week and Barcelona Design Week."
+    },
+    {
+        "dates": "01/2021 - 04/2021 - Barcelona, Spain",
+        "title": "Graphic and UX-UI designer",
+        "subtitle": "Urbaser",
+        "description": "Investigation and research through and for design. Design an app to be used during the working hours by the workers. Comunicate through a video the change of name and logo of an internal project."
+    },
+    {
+        "dates": "09/2020 - 11/2020 - Barcelona, Spain",
+        "title": "Designer",
+        "subtitle": "Ajuntament de Barcelona | Barcelona Activa",
+        "description": "Research and design a campaign and some products to give visibility to the neighborhood commerce."
     },
     {
         "dates": "2020 - CURRENTLY - Barcelona, Spain",
@@ -24,9 +52,14 @@
         "description": "I accompany children with diabetes on school and school trips to help them manage their blood sugar levels. I also supervise them during playtimes."
     },
     {
-        "dates": "2018 - CURRENTLY - Barcelona, Spain",
+        "dates": "2018 - 2022 - Barcelona, Spain",
         "title": "Leisure Activities Instructor",
         "subtitle": "7 i Tria, Pere Tarrés",
-        "description": "Provide leisure activities for children when the parents or family members are unavailable. Look after the children's basic and health needs and help or supervise them during play and even suggest games and activities."
+        "description": "Provide leisure activities for children when parents, tutors or family members are unavailable. Look after the children's basic and health needs and help or supervise them during play and even suggest games and activities."
+    },{
+        "dates": "09/2017 - 06/2021 - Barcelona, Spain",
+        "title": "Learning support mentor",
+        "subtitle": "Escola Frederic Mistral - Tècnic Eulàlia",
+        "description": "I provided academic support to students after school in order to increase their academic success. I developed timetables and action plans together in order to plan the necessary activities and monitor progress. I communicated with the students' teachers and families in order to improve the students' educational development."
     }
 ]
