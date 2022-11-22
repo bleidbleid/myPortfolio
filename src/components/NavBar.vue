@@ -35,8 +35,7 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <router-link v-for="item in navigation" :to="{ name: item.to }"
-                class="text-md px-3 py-2  hover:text-semantic hover:cursor-pointer transition-all duration-300 transform ease"
-                :class="[item.current ? 'text-accent' : 'text-main']">
+                class="text-md px-3 py-2  hover:text-semantic hover:cursor-pointer transition-all duration-300 transform ease">
                 {{ item.name }}
               </router-link>
             </div>
@@ -48,8 +47,7 @@
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pt-2 pb-3">
         <router-link v-for="item in navigation" :to="{ name: item.to }"
-          class="text-md px-3 py-2 font-medium hover:text-semantic hover:cursor-pointer transition-all duration-300 transform ease"
-          :class="[item.current ? 'text-accent' : 'text-main']">
+          class="text-md px-3 py-2 font-medium hover:text-semantic hover:cursor-pointer transition-all duration-300 transform ease">
           {{ item.name }}
         </router-link>
       </div>
@@ -61,14 +59,14 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { ref } from 'vue';
 
-const myUrl = ref(window.location.href)
-const myUrlSplited = myUrl.value.split("/")
-const myUrlPosition = myUrlSplited[myUrlSplited.length - 1]
+// const myUrl = ref(window.location.href)
+// const myUrlSplited = myUrl.value.split("/")
+// const myUrlPosition = myUrlSplited[myUrlSplited.length - 1]
 
 //TODO fer que la logica sigui instantania
 const navigation = ref([
-  { name: 'About', to: 'about', current: myUrlPosition === "about" ? true : false },
-  { name: 'Projects', to: 'projects', current: myUrlPosition === "projects" ? true : false },
-  { name: 'Contact', to: 'contact', current: myUrlPosition === "contact" ? true : false },
+  { name: 'About', to: 'about'},
+  { name: 'Projects', to: 'projects'},
+  { name: 'Contact', to: 'contact'},
 ])
 </script>
