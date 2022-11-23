@@ -1,107 +1,64 @@
 <template>
-    <div class="min-h-min px-4 md:px-8 lg:px-16 font-display">
-        <h1 class="text-5xl font-bold mb-8"> <span class="about-underline"> About</span></h1>
-        <main class="flex flex-col md:flex-row md:gap-12">
-            <div>
-                <section class="mb-10">
-                    <h2 class="mb-3">
-                        <span class="education-underline uppercase text-2xl font-bold">Education</span>
-                    </h2>
-                    <article v-for="course in education" class="mb-6">
-                        <h4 class="font-bold text-sm">{{ course.dates }}</h4>
-                        <p class="font-sans font-bold text-lg">{{ course.title }}</p>
-                        <p class="font-sans text-md"><span> {{ course.subtitle }}</span></p>
-                        <p>{{ course.description }}</p>
-                    </article>
-                </section>
-                <section class="mb-10">
-                    <h2 class="mb-3">
-                        <span class="education-underline uppercase text-2xl font-bold">Languages</span>
-                    </h2>
-                    <article class="mb-6 font-sans text-md">
-                        <p v-for="language in languages"> <b>{{ language.lang }}</b> {{ language.level }}</p>
-                    </article>
-                </section>
-                <section class="mb-10">
-                    <h2 class="mb-3">
-                        <span class="education-underline uppercase text-2xl font-bold">Informatics</span>
-                    </h2>
-                    <article class="mb-6 font-sans text-md">
-                        <ul class="list-[square]">
-                            <li v-for="info in informatics">{{ info.title }}: {{ info.descr }}</li>
-                        </ul>
-                    </article>
-                </section>
-                <section class="mb-10">
-                    <h2 class="mb-3">
-                        <span class="education-underline uppercase text-2xl font-bold">Other</span>
-                    </h2>
-                    <article class="mb-6 font-sans text-md">
-                        <ul class="list-[square]">
-                            <li>My Final Degree Thesis was carried out in collaboration with <span
-                                    class="tfg-underline"> Elisava Research</span> and <span
-                                    class="tfg-underline">Adidas Maker Lab.</span></li>
-                            <li>Participation in La Murga 2016, a learning and service project developed by Escoltes
-                                Catalans that aims to raise awareness of the right to decent housing.</li>
-                            <li>6th edition of the competition "(RE)IMAGINA'T: Fem un espot no sexista".</li>
-                            <li>Car driving licence.</li>
-                        </ul>
-                    </article>
-                </section>
-            </div>
-            <div>
-                <section class="mb-10">
-                    <h2 class="mb-3">
-                        <span class="education-underline uppercase text-2xl font-bold">Work experiance</span>
-                    </h2>
-                    <article v-for="job in work" class="mb-6">
-                        <h4 class="font-bold text-sm">{{ job.dates }}</h4>
-                        <p class="font-sans font-bold text-lg">{{ job.title }}</p>
-                        <p class="font-sans text-md"> {{ job.subtitle }}</p>
-                        <p>{{ job.description }}</p>
-                    </article>
-                </section>
-            </div>
-        </main>
-    </div>
+    <main class="h-[700px] lg:px-16 sm:px-8 px-4">
+        <section class="flex flex-col md:flex-row justify-around mx-auto gap-10 h-full text-xl">
+            <article class="hidden flex-col justify-center w-1/4 lg:flex">
+                <img src="cut-maria.svg" id="mariaCut" alt="Connect the dots star">
+            </article>
+
+            <article class="flex flex-col justify-center px-12 items-center md:w-1/2 lg:w-2/4">
+                <p class="pb-12  mt-6 md:mb-0">
+                    <span class="designer-container p-6">Maria is a designer</span> whose work aims to generate a physical interaction, even from a digital environment. She experiments with the phygital, and seeks debate through artifacts and interactive experiances. Maria always tries to provoke complicity between people, either by creating new bonds or reinforcing existing ones.
+                </p>
+                <p class="mb-6 md:mb-0">
+                    <span class="programmer-underline py-1">
+                    Maria is a programmer</span> who loves working and exploring with any tech she encouters, not only as a front-end developer, but also creating with Arduino and Processing.
+                </p>
+            </article>
+            <article class="flex flex-col items-center justify-center  md:w-2/5 lg:w-1/4">
+                <img src="maria-is.svg" class="rotate-[-4deg] w-2/3 md:w-full" id="mariaIs" alt="Connect the dots star">
+
+
+            </article>
+
+        </section>
+    </main>
+
 </template>
 <script setup>
 import { ref } from 'vue';
-import education from "../data/education.json";
-import languages from "../data/languages.json";
-import informatics from "../data/informatics.json";
-import work from "../data/work.json";
-
-
 </script>
 <style scoped>
-.about-underline {
-    background-image: url(/about-underline.svg);
+.programmer-underline {
+    background-image: url(/programmer-underline.svg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
-
-.tfg-underline {
-    background-image: url(/tfg-underline.svg);
-}
-
-.education-underline {
-    background-image: url(/education-underline.svg);
-}
-
-.elisava-circle {
-    background-image: url(/elisava-circle.svg);
-}
-
-.bauhaus-circle {
-    background-image: url(/bauhaus-circle.svg);
-}
-
-.about-underline,
-.elisava-circle,
-.bauhaus-circle,
-.tfg-underline,
-.education-underline {
+.designer-container {
+    background-image: url(/designer-container.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
+}
+
+#mariaIs {
+    animation: mariais 5s infinite;
+}
+
+#mariaCut {
+    animation: mariacut 2s infinite;
+}
+
+@keyframes mariais {
+    50% {
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes mariacut {
+    50% {
+        transform: rotateY(10deg);
+    }
+
 }
 </style>
