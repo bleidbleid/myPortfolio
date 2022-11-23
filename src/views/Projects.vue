@@ -45,7 +45,6 @@ const isLoading = ref(true);
 const page = ref();
 const myProjects = ref(projects)
 let allProj = ref(true)
-// const myUrl = ref(window.location.href)
 
 // onMounted es una funcion que se llama en el momento que el componente esta listo para renderizarse
 onMounted(() => {

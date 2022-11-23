@@ -69,3 +69,9 @@ const navigation = ref([
   { name: 'Projects', to: 'projects'},
 ])
 </script>
+
+<style scoped>
+.router-link-active {
+color: #0000FF;
+}
+</style>
