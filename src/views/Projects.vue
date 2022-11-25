@@ -7,7 +7,7 @@
         <section class="flex h-min flex-col sm:flex-row">
             <aside v-show="!allProj" class=" flex sm:block flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
                 <h4 v-for="project in myProjects"
-                    class="px-3 m-1 py-1 border-solid border-[1px] border-accent  sm:hover:bg-transparent sm:hover-text-semantic sm:hover:border-transparent active:bg-semantic sm:active:bg-transparent active:text-background sm:active:text-main rounded-full active:border-semantic sm:border-none">
+                    class="px-3 m-1 py-1 border-solid border-[1px] border-accent  sm:hover:bg-transparent hover:text-semantic sm:hover:border-transparent active:bg-semantic sm:active:bg-transparent active:text-background sm:active:text-main rounded-full active:border-semantic sm:border-none">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"> {{ project.name }}
                     </router-link>
                 </h4>
@@ -79,6 +79,10 @@ watch(() => route.name, newValue => {
 </script>
 
 <style>
+aside  .router-link-active {
+color: #0000FF;
+}
+
 .projects-underline {
     background-image: url(/projects-underline.svg);
     background-size: auto;

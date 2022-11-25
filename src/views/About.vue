@@ -2,7 +2,7 @@
     <main class="h-[700px] lg:px-16 sm:px-8 px-4">
         <section class="flex flex-col md:flex-row justify-around mx-auto gap-10 h-full text-xl">
             <article class="hidden flex-col justify-center w-1/4 lg:flex">
-                <img src="cut-maria.svg" id="mariaCut" alt="Connect the dots star">
+                <img src="/cut-maria.svg" id="mariaCut" alt="Connect the dots star">
             </article>
 
             <article class="flex flex-col justify-center px-12 items-center md:w-1/2 lg:w-2/4">
@@ -15,7 +15,7 @@
                 </p>
             </article>
             <article class="flex flex-col items-center justify-center  md:w-2/5 lg:w-1/4">
-                <img src="maria-is.svg" class="rotate-[-4deg] w-2/3 md:w-full" id="mariaIs" alt="Connect the dots star">
+                <img src="/maria-is.svg" class="rotate-[-4deg] w-2/3 md:w-full" id="mariaIs" alt="Connect the dots star">
 
 
             </article>
