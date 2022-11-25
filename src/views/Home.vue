@@ -1,7 +1,7 @@
 <template>
     <main class="h-[600px] lg:px-16 sm:px-8 px-4 font-display">
         <section class="flex justify-around flex-col mx-auto h-full text-center text-3xl sm:text-4xl lg:text-6xl">
-            <article> <span class="hola-container transition-all duration-300 transform ease">Hola! </span> </article>
+            <article> <span class="hola-container">Hola! </span> </article>
 
             <article>My name <router-link :to="{ name: 'about' }"><span
                         class="name-container py-7 hover:cursor-pointer transition-all duration-300 transform ease lg:py-10">is
@@ -35,8 +35,12 @@
                     <div
                         class="flex gap-3 content-start hover:text-semantic transition-all duration-300 transform ease justify-center mt-2 sm:mt-0">
                         <img class="hidden sm:block" src="/email-arrow.svg" alt="">
-                        <h1 class="text-center text-lg lg:text-2xl">
-                            mariablade2000@gmail.com </h1>
+
+                        <a href="mailto:mariablade2000@gmail.com">
+                            <h1 class="text-center text-lg lg:text-2xl">
+                                mariablade2000@gmail.com </h1>
+                        </a>
+
                     </div>
                 </div>
             </article>
@@ -88,9 +92,5 @@
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-}
-
-:hover.hola-container {
-    background-image: url(/hola-container-hover.svg);
 }
 </style>
