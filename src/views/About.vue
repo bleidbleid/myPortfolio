@@ -1,7 +1,7 @@
 <template>
     <main class="h-[700px] lg:px-16 sm:px-8 px-4">
         <section class="flex flex-col md:flex-row justify-around mx-auto gap-10 h-full text-xl">
-            <article class="hidden flex-col justify-center w-1/4 lg:flex">
+            <article class="hidden flex-col justify-center w-1/4 lg:flex ">
                 <img src="/cut-maria.svg" id="mariaCut" alt="Connect the dots star">
             </article>
 
