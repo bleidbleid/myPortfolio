@@ -17,11 +17,9 @@
             </article>
             <article
                 class="mx-auto max-w-sm sm:items-end items-center text-center flex flex-col sm:flex-row sm:max-w-none">
-                <router-link :to="{ name: 'contact' }">
                     <div class=" text-center align-center text-3xl sm:text-4xl lg:text-6xl mr-0 sm:mr-4 mt-6 sm:mt-0">
                         Let's get in touch :)
                     </div>
-                </router-link>
                 <img class="sm:hidden mt-2 block" src="/contact-arrow.svg" alt="">
 
                 <div class="flex flex-col mt-2 sm:mt-0">

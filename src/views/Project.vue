@@ -60,7 +60,7 @@ const isLoading = ref(true);
 // onMounted es una funcion que se llama en el momento que el componente esta listo para renderizarse
 onMounted(() => {
     project.value = findProject(route.params.id);
-    console.log("hehe", project.value.id)
+    // console.log("hehe", project.value.id)
     isLoading.value = false;
 })
 
