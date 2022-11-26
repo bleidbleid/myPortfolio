@@ -23,10 +23,10 @@
                 <img class="sm:hidden mt-2 block" src="/contact-arrow.svg" alt="">
 
                 <div class="flex flex-col mt-2 sm:mt-0">
-                    <div class="flex gap-3 justify-center sm:justify-start">
+                    <div class="flex gap-3 justify-center hover:text-semantic transition-all duration-300 transform ease sm:justify-start">
                         <img class="hidden sm:block " src="/github-arrow.svg" alt="">
                         <a href="https://github.com/bleidbleid"
-                            class="text-center hover:text-semantic transition-all duration-300 transform ease text-lg lg:text-2xl">
+                            class="text-center text-lg lg:text-2xl">
                             github.com/bleidbleid
                         </a>
                     </div>
