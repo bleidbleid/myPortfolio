@@ -13,7 +13,7 @@
                     <span class="programmer-underline py-1">
                     Maria is a programmer,</span> who loves working and exploring with any tech she encouters, not only as a front-end developer, but also creating with Arduino and Processing.
                 </p>
-                <a href="/MariaBladéCV.pdf" id="resume" class="mt-24 hover:play uppercase text-xl border rounded-[50px] px-6 py-2 bg-accent text-background hover:bg-semantic font-display" download>Download Maria's resume!</a>
+                <a href="/MariaBladéCV.pdf" id="resume" class="mt-18 hover:play uppercase text-xl border rounded-[50px] px-6 py-2 bg-accent text-background hover:bg-semantic font-display" download>Download Maria's resume!</a>
                 <p ></p>
             </article>
             <article class="flex flex-col items-center justify-center  md:w-2/5 lg:w-1/4">

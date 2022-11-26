@@ -23,23 +23,19 @@
                 <img class="sm:hidden mt-2 block" src="/contact-arrow.svg" alt="">
 
                 <div class="flex flex-col mt-2 sm:mt-0">
-                    <div class="flex gap-3 justify-center hover:text-semantic transition-all duration-300 transform ease sm:justify-start">
+                    <a href="https://github.com/bleidbleid" class="flex gap-3 justify-center hover:text-semantic transition-all duration-300 transform ease sm:justify-start">
                         <img class="hidden sm:block " src="/github-arrow.svg" alt="">
-                        <a href="https://github.com/bleidbleid"
                             class="text-center text-lg lg:text-2xl">
                             github.com/bleidbleid
                         </a>
-                    </div>
-                    <div
+                    <a href="mailto:mariablade2000@gmail.com"
                         class="flex gap-3 content-start hover:text-semantic transition-all duration-300 transform ease justify-center mt-2 sm:mt-0">
                         <img class="hidden sm:block" src="/email-arrow.svg" alt="">
 
-                        <a href="mailto:mariablade2000@gmail.com">
                             <h1 class="text-center text-lg lg:text-2xl">
                                 mariablade2000@gmail.com </h1>
                         </a>
 
-                    </div>
                 </div>
             </article>
         </section>
