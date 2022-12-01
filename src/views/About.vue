@@ -1,17 +1,20 @@
 <template>
-    <main class="h-[700px] lg:px-16 sm:px-8 px-4">
+    <main class="h-full lg:px-16 sm:px-8 px-4">
+                <!-- TODO Estilitzar hover titol -->
+        <router-link :to="{ name: 'about' }">
+            <h1 class="text-5xl font-bold mb-8 sm:block"> <span class="font-display about-underline"> About</span></h1>
+        </router-link>
         <section class="flex flex-col md:flex-row justify-around mx-auto gap-10 h-full text-xl">
             <article class="hidden flex-col justify-center w-1/4 lg:flex ">
                 <img src="/cut-maria.svg" id="mariaCut" alt="Connect the dots star">
             </article>
-
             <article class="flex flex-col justify-center px-12 items-center md:w-1/2 lg:w-2/4">
                 <p class="pb-12  mt-6 md:mb-0">
-                    <span class="designer-container p-6">Maria is a designer,</span> whose work aims to generate a physical interaction, even from a digital environment. She experiments with the phygital, and seeks debate through artifacts and interactive experiances. Maria always tries to provoke complicity between people, either by creating new bonds or reinforcing existing ones.
+                    <span class="designer-container p-6">Maria is a designer</span> whose work aims to generate a physical interaction even from a digital environment. She experiments with the phygital, and seeks debate through artifacts and interactive experiances. Maria always tries to provoke complicity between people, either by creating new bonds or reinforcing existing ones.
                 </p>
-                <p class="mb-6 md:mb-0">
+                <p class="mb-6">
                     <span class="programmer-underline py-1">
-                    Maria is a programmer,</span> who loves working and exploring with any tech she encouters, not only as a front-end developer, but also creating with Arduino and Processing.
+                    Maria is a programmer</span> who loves working and exploring with any tech she encouters, not only as a front-end developer, but also creating with Arduino and Processing.
                 </p>
                 <a href="/MariaBladéCV.pdf" id="resume" class="mt-18 hover:play uppercase text-xl border rounded-[50px] px-6 py-2 bg-accent text-background hover:bg-semantic font-display" download>Download Maria's resume!</a>
                 <p ></p>
@@ -41,6 +44,12 @@ import { ref } from 'vue';
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.about-underline {
+    background-image: url(/about-underline.svg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 .play {
     animation-play-state: running;

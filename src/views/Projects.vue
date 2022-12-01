@@ -2,7 +2,7 @@
 <template>
     <main class="min-h-min px-4 md:px-8 lg:px-16 font-display" :key="route.name">
         <router-link :to="{ name: 'projects' }">
-            <h1 class="text-5xl font-bold mb-8 sm:block"> <span class="projects-underline"> Projects</span></h1>
+            <h1 class="text-5xl font-bold mb-8 sm:block"> <span class="projects-underline hover:cursor-pointer transition-all duration-300 transform ease hover:text-semantic"> Projects</span></h1>
         </router-link>
         <section class="flex h-min flex-col sm:flex-row">
             <aside v-show="!allProj" class=" flex sm:block flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">

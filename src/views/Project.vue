@@ -31,7 +31,6 @@
                     <span class="relative invisible">View Project</span>
                 </a>
             </article>
-            <!-- TODO responsive embed -->
             <figure class="sm:w-6/12 sm:h-[71vh] sm:overflow-x-hidden sm:overflow-y-scroll flex flex-col gap-4">
                 <iframe v-if="project.embed" width="100%" height="100%" :src="project.embed" :title="project.name"
                     frameborder="0"

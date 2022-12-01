@@ -63,7 +63,6 @@ import { ref } from 'vue';
 // const myUrlSplited = myUrl.value.split("/")
 // const myUrlPosition = myUrlSplited[myUrlSplited.length - 1]
 
-//TODO fer que la logica sigui instantania
 const navigation = ref([
   { name: 'About', to: 'about'},
   { name: 'Projects', to: 'projects'},

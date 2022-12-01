@@ -8,7 +8,8 @@
             "/projects/toska1.jpg"
         ],
         "embed": "https://www.youtube.com/embed/DHHTkYFOaH8",
-        "type": "installation"
+        "type": "installation",
+        "number": "1"
     },
     {
         "id": "dissenyem-comerç",
@@ -20,7 +21,9 @@
             "/projects/dissenyem2.jpg"
         ],
         "embed": "https://www.youtube.com/embed/TqSu4cAMjfM",
-        "type": ""
+        "type": "",
+        "number": "2"
+
     },
     {
         "id": "haptic-pants",
@@ -34,7 +37,8 @@
             "/projects/haptic4.jpg",
             "/projects/haptic5.jpg"
         ],
-        "type": "product"
+        "type": "product",
+        "number": "3"
     },
     {
         "id": "call-me",
@@ -44,7 +48,8 @@
         "pictureUrl": [
             "/projects/callme.jpg"
         ],
-        "type": "product"
+        "type": "product",
+        "number": "4"
     },
     {
         "id": "guiri",
@@ -59,7 +64,8 @@
             "/projects/guiri5.jpeg",
             "/projects/guiri6.jpeg"
         ],
-        "type": "product"
+        "type": "product",
+        "number": "5"
     },
     {
         "id": "siau",
@@ -76,7 +82,8 @@
             "/projects/siau8.jpg",
             "/projects/siau9.jpg"
         ],
-        "type": "app"
+        "type": "app",
+        "number": "6"
     },
     {
         "id": "urbaservei",
@@ -86,7 +93,8 @@
         "pictureUrl": [
             "/projects/urbaservei1.png"
         ],
-        "type": "app"
+        "type": "app",
+        "number": "7"
     },
     {
         "id": "reflexionar",
@@ -95,7 +103,8 @@
         "description": "(This video has been made under the premise of making a self-portrait in a 30-second video format). “These days I have been reflecting on self-portraits. I've been looking inside myself and I've lost myself. I have looked in the mirror without finding myself, without recognising myself. That's why I've reflected one mirror in another, to reflect and reflect myself trying to see myself. And instead of seeing better I have lost myself even more”.",
         "pictureUrl": [
             "/projects/reflex1.jpg"
-        ]
+        ],
+        "number": "8"
     },
     {
         "id": "haveyou",
@@ -105,7 +114,8 @@
         "pictureUrl": [
             "/projects/have-you1.png"
         ],
-        "type": "experiance"
+        "type": "experiance",
+        "number": "9"
     },
     {
         "id": "encara",
@@ -116,7 +126,8 @@
             "/projects/encara2.jpeg",
             "/projects/encara1.png"
         ],
-        "type": "experiance"
+        "type": "experiance",
+        "number": "10"
     },
     {
         "id": "portadores",
@@ -135,6 +146,7 @@
             "/projects/portadores9.png",
             "/projects/portadores10.png"
         ],
-        "type": "app"
+        "type": "app",
+        "number": "11"
     }
 ]

@@ -1,6 +1,6 @@
 <template>
   <NavBar class="sticky top-0 z-20"/>
-  <router-view ></router-view>
+  <router-view></router-view>
 </template>
 <script setup>
 import NavBar from "./components/NavBar.vue";
