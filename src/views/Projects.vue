@@ -5,12 +5,14 @@
             <h1 class="text-5xl font-bold mb-8 sm:block"> <span class="projects-underline hover:cursor-pointer transition-all duration-300 transform ease hover:text-semantic"> Projects</span></h1>
         </router-link>
         <section class="flex h-min flex-col sm:flex-row">
-            <aside v-show="!allProj" class=" flex sm:block flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
-                <h4 v-for="project in myProjects"
+            <aside v-show="!allProj" class=" flex flex-col sm:block flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
+                <ul>
+                <li v-for="project in myProjects"
                     class="px-3 m-1 py-1 border-solid border-[1px] border-accent  sm:hover:bg-transparent hover:text-semantic sm:hover:border-transparent active:bg-semantic sm:active:bg-transparent active:text-background sm:active:text-main rounded-full active:border-semantic sm:border-none">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"> {{ project.name }}
                     </router-link>
-                </h4>
+                </li>
+            </ul>
             </aside>
             <img v-show="!allProj" class="block sm:hidden px-5 mt-4 mb-8" src="/separator-mobile.svg" alt="">
             <img v-show="!allProj" class="hidden sm:block px-5 h-[500px]" src="/separator-projects.svg" alt="">

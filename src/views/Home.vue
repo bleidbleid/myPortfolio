@@ -17,11 +17,10 @@
             </article>
             <article
                 class="mx-auto max-w-sm sm:items-end items-center text-center flex flex-col sm:flex-row sm:max-w-none">
-                    <div class=" text-center align-center text-3xl sm:text-4xl lg:text-6xl mr-0 sm:mr-4 mt-6 sm:mt-0">
-                        Let's get in touch :)
-                    </div>
+                <div class=" text-center align-center text-3xl sm:text-4xl lg:text-6xl mr-0 sm:mr-4 mt-6 sm:mt-0">
+                    Let's get in touch :)
+                </div>
                 <img class="sm:hidden mt-2 block" src="/contact-arrow.svg" alt="">
-
                 <div class="flex flex-col mt-2 sm:mt-0">
                     <div class="flex gap-3 justify-center sm:justify-start">
                         <img class="hidden sm:block " src="/github-arrow.svg" alt="">
@@ -30,12 +29,11 @@
                             github.com/bleidbleid
                         </a>
                     </div>
-                    <div
-                        class="flex gap-3 content-startjustify-center mt-2 sm:mt-0">
+                    <div class="flex gap-3 content-startjustify-center mt-2 sm:mt-0">
                         <img class="hidden sm:block" src="/email-arrow.svg" alt="">
-
                         <a href="mailto:mariablade2000@gmail.com">
-                            <h1 class="text-center text-lg lg:text-2xl  hover:text-semantic transition-all duration-300 transform ease ">
+                            <h1
+                                class="text-center text-lg lg:text-2xl  hover:text-semantic transition-all duration-300 transform ease ">
                                 mariablade2000@gmail.com </h1>
                         </a>
 
