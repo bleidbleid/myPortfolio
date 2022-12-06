@@ -77,7 +77,7 @@ watch(() => route.name, newValue => {
 </script>
 
 <style>
-aside  .router-link-active {
+li  .router-link-active {
 color: #0000FF;
 }
 
