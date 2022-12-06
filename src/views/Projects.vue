@@ -5,15 +5,12 @@
             <h1 class="text-5xl font-bold mb-8 sm:block"> <span class="projects-underline hover:cursor-pointer transition-all duration-300 transform ease hover:text-semantic"> Projects</span></h1>
         </router-link>
         <section class="flex h-min flex-col sm:flex-row">
-            <aside v-show="!allProj" class=" flex flex-col sm:block flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
-                <ul>
-                <li v-for="project in myProjects"
-                    class="px-3 m-1 py-1 border-solid border-[1px] border-accent  sm:hover:bg-transparent hover:text-semantic sm:hover:border-transparent active:bg-semantic sm:active:bg-transparent active:text-background sm:active:text-main rounded-full active:border-semantic sm:border-none">
-                    <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"> {{ project.name }}
+                <ul  v-show="!allProj" class=" flex flex-col sm:block flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
+                <li v-for="project in myProjects">
+                    <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"   class=" px-3 m-1 py-1 border-solid border-[1px] w-full border-accent sm:hover:bg-transparent hover:text-semantic sm:hover:border-transparent active:bg-semantic sm:active:bg-transparent active:text-background sm:active:text-main rounded-full sm:rounded-none active:border-semantic sm:border-none"> {{ project.name }}
                     </router-link>
                 </li>
             </ul>
-            </aside>
             <img v-show="!allProj" class="block sm:hidden px-5 mt-4 mb-8" src="/separator-mobile.svg" alt="">
             <img v-show="!allProj" class="hidden sm:block px-5 h-[500px]" src="/separator-projects.svg" alt="">
             <article class="columns-1 md:columns-2 lg:columns-4 gapx-2.5 gapy-4">
@@ -25,10 +22,9 @@
                             <!-- style hover quan hovering tota la targeta -->
                         <figcaption                    
                             class="row-span-2 col-span-1  bg-[url('/miniature-project.svg')] transition-all duration-300 transform group-hover:translate-x-full ease hover:bg-[url('/miniature-hover-project.svg')] hover:text-semantic  bg-contain bg-center bg-no-repeat p-2 text-center">
-                            <h5>
-
+                            <button class="uppercase">
                                 {{ project.name }}
-                            </h5>
+                            </button>
                         </figcaption>
                     </router-link>
                 </figure>
