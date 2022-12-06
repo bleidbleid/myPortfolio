@@ -1,12 +1,12 @@
 <template>
-    <main v-if="!isLoading" class="h-80 font-sans max-w-full">
+    <main v-if="!isLoading" class="h-80 max-w-full text-lg">
         <section class="flex flex-col sm:flex-row gap-10 h-[500px]">
             <article class="sm:w-6/12">
-                <h2 class="text-4xl font-bold uppercase"> {{ project.name }}</h2>
+                <h2 class="text-4xl font-body font-bold uppercase"> {{ project.name }}</h2>
 
-                <h3 class="text-2xl font-display uppercase mb-4"> <span class="title-underline">{{ project.subtitle
+                <h3 class="text-2xl uppercase mb-4"> <span class="title-underline">{{ project.subtitle
                 }}</span> </h3>
-                <p class=" "> {{ project.description }}</p>
+                <p class="font-body"> {{ project.description }}</p>
                 <a v-if="project.href" target="_blank" :href="project.href"
                     class="relative mt-6 inline-flex items-center justify-center px-4 py-2 overflow-hidden text-main transition duration-300 ease-out border-2 border-accent hover:border-semantic rounded-full group">
                     <span

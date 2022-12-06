@@ -14,8 +14,10 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        'sans': ['TeX Gyre Heros'],
-        'display': ['TeX Gyre Heros Cn'],
+        'sans': ['TeX Gyre Heros Cn'],
+        'body': ['TeX Gyre Heros'],
+        'detail': ['Escolar4'],
+        'detailed': ['Escolar1']
       },
     }
   },

@@ -2,12 +2,17 @@
 <template>
     <main class="min-h-min px-4 md:px-8 lg:px-16 font-display" :key="route.name">
         <router-link :to="{ name: 'projects' }">
-            <h1 class="text-5xl font-bold mb-8 sm:block"> <span class="projects-underline hover:cursor-pointer transition-all duration-300 transform ease hover:text-semantic"> Projects</span></h1>
+            <h1 class="text-5xl font-bold mb-8 sm:block"> <span
+                    class="projects-underline hover:cursor-pointer transition-all duration-300 transform ease hover:text-semantic">
+                    Projects</span></h1>
         </router-link>
         <section class="flex h-min flex-col sm:flex-row">
-                <ul  v-show="!allProj" class=" flex flex-col sm:block flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
+            <ul v-show="!allProj"
+                class=" flex md:flex-col sm:block gap-y-2 md:gap-y-0 flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
                 <li v-for="project in myProjects">
-                    <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"   class=" px-3 m-1 py-1 border-solid border-[1px] w-full border-accent sm:hover:bg-transparent hover:text-semantic sm:hover:border-transparent active:bg-semantic sm:active:bg-transparent active:text-background sm:active:text-main rounded-full sm:rounded-none active:border-semantic sm:border-none"> {{ project.name }}
+                    <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"
+                        class="px-3 md:m-1 md:py-1 border-solid border-[1px] w-full border-accent sm:hover:bg-transparent hover:text-semantic sm:hover:border-transparent active:bg-semantic sm:active:bg-transparent active:text-background sm:active:text-main rounded-full sm:rounded-none active:border-semantic sm:border-none">
+                        {{ project.name }}
                     </router-link>
                 </li>
             </ul>
@@ -19,8 +24,8 @@
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }">
                         <img class="max-w-full block justify-self-start" :src="project.pictureUrl[0]"
                             alt="Project image" />
-                            <!-- style hover quan hovering tota la targeta -->
-                        <figcaption                    
+                        <!-- style hover quan hovering tota la targeta -->
+                        <figcaption
                             class="row-span-2 col-span-1  bg-[url('/miniature-project.svg')] transition-all duration-300 transform group-hover:translate-x-full ease hover:bg-[url('/miniature-hover-project.svg')] hover:text-semantic  bg-contain bg-center bg-no-repeat p-2 text-center">
                             <button class="uppercase">
                                 {{ project.name }}
@@ -57,7 +62,7 @@ onMounted(() => {
         // console.log(allProj.value)
     }
 
-      isLoading.value = false;
+    isLoading.value = false;
 })
 
 watch(() => route.name, newValue => {
@@ -77,12 +82,13 @@ watch(() => route.name, newValue => {
 </script>
 
 <style>
-li  .router-link-active {
-color: #0000FF;
+li .router-link-active {
+    color: #0000FF;
 }
-li  .router-link-active:hover {
-color: #0000FF;
-text-decoration-line: underline;
+
+li .router-link-active:hover {
+    color: #0000FF;
+    text-decoration-line: underline;
 }
 
 .projects-underline {
