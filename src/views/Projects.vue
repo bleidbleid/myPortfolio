@@ -80,6 +80,10 @@ watch(() => route.name, newValue => {
 li  .router-link-active {
 color: #0000FF;
 }
+li  .router-link-active:hover {
+color: #0000FF;
+text-decoration-line: underline;
+}
 
 .projects-underline {
     background-image: url(/projects-underline.svg);

@@ -73,4 +73,8 @@ const navigation = ref([
 .router-link-active {
 color: #0000FF;
 }
+ .router-link-active:hover {
+color: #0000FF;
+text-decoration-line: underline;
+}
 </style>
