@@ -1,5 +1,20 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-
+@font-face {
+  font-family: "TeX Gyre Heros Cn";
+  src: url("/texgyreheroscn-regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "TeX Gyre Heros";
+  src: url("/texgyreheros-regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Escolar4";
+  src: url("/Escolar_P.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Escolar1";
+  src: url("/Escolar_G.TTF") format("truetype");
+}
 /* * {
   border:  solid 1px red !important;
   } */
