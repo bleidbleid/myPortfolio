@@ -35,7 +35,7 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <router-link v-for="item in navigation" :to="{ name: item.to }"
-                class="text-md px-3 py-2  hover:text-semantic hover:cursor-pointer transition-all duration-300 transform ease">
+                class="text-md px-3 py-2  hover:italic hover:text-accent hover:cursor-pointer transition-all duration-300 transform ease">
                 {{ item.name }}
               </router-link>
             </div>
@@ -47,7 +47,7 @@
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pt-2 pb-3">
         <router-link v-for="item in navigation" :to="{ name: item.to }"
-          class="text-md px-3 py-2 font-medium hover:text-semantic hover:cursor-pointer transition-all duration-300 transform ease">
+          class="text-md px-3 py-2 font-medium hover:italic hover:text-accent hover:cursor-pointer transition-all duration-300 transform ease">
           {{ item.name }}
         </router-link>
       </div>
@@ -73,8 +73,5 @@ const navigation = ref([
 .router-link-active {
 color: #0000FF;
 }
- .router-link-active:hover {
-color: #0000FF;
-text-decoration-line: underline;
-}
+
 </style>

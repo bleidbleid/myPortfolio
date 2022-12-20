@@ -10,6 +10,7 @@ module.exports = {
       'semantic': '#FF8000',
       'background': '#FDFDFF',
       'darkaccent': '#0000A3',
+      'white': '#ffffff',
     },
 
     extend: {
