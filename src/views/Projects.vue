@@ -20,7 +20,7 @@
             <img v-show="!allProj" class="hidden sm:block px-5 h-[500px]" src="/separator-projects.svg" alt="">
             <article class="columns-1 md:columns-4 lg:columns-5 gapx-2.5 gapy-4">
                 <figure v-show="allProj" v-for="project in myProjects"
-                    class="m-0 grid mb-2.5 break-inside-avoid hover:italic font-normal figure">
+                    class="m-0 grid mb-2.5 break-inside-avoid hover:italic  hover:text-accent font-normal figure">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }" class="relative">
                         <!-- <div class="w-full h-full z-1 hover:bg-opacity-20 hover:bg-accent absolute">
 
@@ -28,7 +28,7 @@
                         <img class="max-w-full block justify-self-start" :src="project.pictureUrl[0]" 
                             alt="Project image" />
                         <figcaption
-                            class="row-span-2 col-span-1 z-1 pl-2 pr-9 w-40 ml-1 bg-white absolute bottom-1 left-0 text-accent bg-[url('/miniature-project.svg')] bg-contain bg-center bg-no-repeat">
+                            class="row-span-2 col-span-1 z-1 pl-2 pr-9 w-48 ml-1 bg-white absolute bottom-1 uppercase left-0 bg-[url('/miniature-project.svg')] bg-contain bg-center bg-no-repeat">
                                 {{ project.name }}
                         </figcaption>
                     </router-link>
