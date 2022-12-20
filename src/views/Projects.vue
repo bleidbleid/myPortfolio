@@ -1,6 +1,6 @@
 
 <template>
-    <main class="min-h-min px-4 md:px-8 lg:px-16" :key="route.name">
+    <main class="min-h-min px-4 md:px-8 mb-4 lg:px-16" :key="route.name">
         <router-link :to="{ name: 'projects' }">
             <h1 class="text-5xl font-bold mb-8 sm:block"> <span
                     class="projects-underline hover:cursor-pointer transition-all duration-300 transform ease hover:italic hover:text-accent">
