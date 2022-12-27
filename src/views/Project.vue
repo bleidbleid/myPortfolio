@@ -1,16 +1,7 @@
 <template>
     <main v-if="!isLoading" class="max-w-full text-lg">
         <section class="flex flex-col sm:flex-row gap-10">
-            <figure class="sm:w-6/12 sm:overflow-x-hidden sm:overflow-y-scroll flex flex-col gap-4">
-                <iframe v-if="project.embed" width="100%" height="100%" :src="project.embed" :title="project.name"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <div v-for="picture in project.pictureUrl" class="flex flex-col gap-4">
-                    <!-- {{ project.pictureUrl }} -->
-                    <img :src="picture">
-                </div>
-            </figure>
+            
             <article class="sm:w-6/12">
                 <h2 class="text-4xl font-body font-bold uppercase"> {{ project.name }}</h2>
                 <h3 class="text-2xl uppercase mb-4"> <span class="title-underline">{{ project.subtitle
@@ -40,6 +31,16 @@
                     <span class="relative invisible">View Project</span>
                 </a>
             </article>
+            <figure class="sm:w-6/12 sm:overflow-x-hidden sm:overflow-y-scroll flex flex-col gap-4">
+                <iframe v-if="project.embed" width="100%" height="100%" :src="project.embed" :title="project.name"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div v-for="picture in project.pictureUrl" class="flex flex-col gap-4">
+                    <!-- {{ project.pictureUrl }} -->
+                    <img :src="picture">
+                </div>
+            </figure>
         </section>
     </main>
 </template>
