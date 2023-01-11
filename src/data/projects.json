@@ -91,7 +91,20 @@
         "subtitle": "UX & UI - Urbaser",
         "description": "Mobile app for Urbaser, a company in charge of waste management and collection, to be used during the service. The project was developed during 3 months. It began with a UX Research and ended up with the design of the app.",
         "pictureUrl": [
-            "/projects/urbaservei1.png"
+            "/projects/urba0.png",
+            "/projects/urba1.png",
+            "/projects/urba2.png",
+            "/projects/urba3.png",
+            "/projects/urba4.png",
+            "/projects/urba5.png",
+            "/projects/urba6.png",
+            "/projects/urba7.png",
+            "/projects/urba8.png",
+            "/projects/urba9.png",
+            "/projects/urba10.png",
+            "/projects/urba11.png",
+            "/projects/urba12.png",
+            "/projects/urba13.png"
         ],
         "type": "app",
         "number": "7"
@@ -145,6 +158,21 @@
             "/projects/portadores8.png",
             "/projects/portadores9.png",
             "/projects/portadores10.png"
+        ],
+        "type": "app",
+        "number": "11"
+    },
+    {
+        "id": "kaos",
+        "name": "Kaosn't",
+        "subtitle": "Design & Frontend Development",
+        "description": "Frontend project fetching data from the server and returning some data back. Always with a responsive design. Code available in my GitHub page",
+        "pictureUrl": [
+            "/projects/kaosnt2.png",
+            "/projects/kaosnt1.png",
+            "/projects/kaosnt3.png",
+            "/projects/kaosnt4.png",
+            "/projects/kaosnt5.png"
         ],
         "type": "app",
         "number": "11"
