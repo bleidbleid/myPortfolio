@@ -2,7 +2,7 @@
 <template>
     <main class="min-h-min px-4 md:px-8 mb-4 lg:px-16" :key="route.name">
         <h1 class="text-5xl font-bold mb-8 sm:block"> <span
-                class="exhibitions-underline hover:cursor-pointer transition-all duration-300 transform ease hover:italic hover:text-accent">
+                class="exhibitions-underline">
                 Exhibitions</span></h1>
                 <!-- <h2 class="text-3xl font-bold mb-2 italic sm:block">Present to Past</h2> -->
         <section>

@@ -11,9 +11,9 @@
             <article class="mt-6 text-center text-3xl sm:text-4xl lg:text-6xl">
                 I'm a <router-link :to="{ name: 'projects' }"><span
                         class="interaction-container hover:cursor-pointer py-3 hover:italic hover:text-accent">
-                        multidisciplinary interactive designer </span> and <span
+                        multidisciplinary interactive designer </span></router-link> and <a href="https://github.com/bleidbleid" target="_blank"
                         class="frontend-container hover:cursor-pointer py-1 hover:italic hover:text-accent">
-                        front-end developer</span></router-link> based in Barcelona.
+                        front-end developer</a> based in Barcelona.
             </article>
             <article
                 class="mx-auto max-w-sm sm:items-end items-center text-center flex flex-col sm:flex-row sm:max-w-none">
@@ -24,7 +24,7 @@
                 <div class="flex flex-col mt-2 sm:mt-0">
                     <div class="flex gap-3 justify-center sm:justify-start">
                         <img class="hidden sm:block " src="/github-arrow.svg" alt="">
-                        <a href="https://github.com/bleidbleid"
+                        <a href="https://github.com/bleidbleid" target="_blank"
                             class="text-center hover:italic hover:text-accent text-lg lg:text-2xl">
                             github.com/bleidbleid
                         </a>

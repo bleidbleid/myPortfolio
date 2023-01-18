@@ -139,6 +139,7 @@
             "/projects/encara2.jpeg",
             "/projects/encara1.png"
         ],
+        "embed": "https://www.youtube.com/embed/QuyuQ-gJ16E",
         "type": "experiance",
         "number": "10"
     },
@@ -166,7 +167,7 @@
         "id": "kaos",
         "name": "Kaosn't",
         "subtitle": "Design & Frontend Development",
-        "description": "Frontend project fetching data from the server and returning some data back. Always with a responsive design. Code available in my GitHub page",
+        "description": "Frontend project fetching data from the server and returning some data back. Always with a responsive design. Code available in my GitHub page.",
         "pictureUrl": [
             "/projects/kaosnt2.png",
             "/projects/kaosnt1.png",
