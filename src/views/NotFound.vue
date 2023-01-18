@@ -9,7 +9,7 @@
                     <p class="md:text-4xl text-3xl">Oh, no! The page you were looking for is not found.</p>
                     <p class="text-2xl hidden md:block ">Sorry you got lost, but oh!, you found a whiteboard.</p>
                 </div>
-                <vue-drawing-canvas ref="VueCanvasDrawing" class="hidden md:block" :width="740" :height="650" :stroke-type="strokeType"
+                <vue-drawing-canvas ref="VueCanvasDrawing" class="hidden md:block cursor-[url(https://cur.cursors-4u.net/others/oth-7/oth697.cur),_pointer]" :width="740" :height="650" :stroke-type="strokeType"
                     :line-cap="lineCap" :line-join="lineJoin" :lineWidth="line" :color="color"
                     :background-color="backgroundColor" :initial-image="initialImage" saveAs="png" :styles="{
                         border: 'solid 1px #000',
@@ -24,9 +24,7 @@
 
                 </div>
             </div>
-            <!-- TODO cursor de llapis
-    TODO afegir text error 404 
-    TODO aconseguir posar full-width -->
+            <!-- TODO cursor de llapis -->
         </section>
     </main>
 
