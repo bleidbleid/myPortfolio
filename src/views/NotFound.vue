@@ -3,19 +3,19 @@
     <main id="app">
         <section class="flex-row flex justify-center align-middle">
             <div class="source relative">
-                <div class="absolute top-0 -z-20 text-center w-full">
-                    <p class=" font-display font-bold text-accent leading-[15rem] text-[250px]">Error
+                <div class="md:absolute top-0 -z-20 text-center w-full">
+                    <p class=" font-display font-bold text-accent md:leading-[9rem] text-[80px] md:text-[150px]">Error
                         404</p>
-                    <p class="text-4xl ">Oh, no! The page you were looking for is not found.</p>
-                    <p class="text-2xl ">Sorry you got lost, but oh!, you found a whiteboard.</p>
+                    <p class="md:text-4xl text-3xl">Oh, no! The page you were looking for is not found.</p>
+                    <p class="text-2xl hidden md:block ">Sorry you got lost, but oh!, you found a whiteboard.</p>
                 </div>
-                <vue-drawing-canvas ref="VueCanvasDrawing" :width="900" :height="650" :stroke-type="strokeType"
+                <vue-drawing-canvas ref="VueCanvasDrawing" class="hidden md:block" :width="740" :height="650" :stroke-type="strokeType"
                     :line-cap="lineCap" :line-join="lineJoin" :lineWidth="line" :color="color"
                     :background-color="backgroundColor" :initial-image="initialImage" saveAs="png" :styles="{
                         border: 'solid 1px #000',
                     }" @mousemove="getCoordinate($event)" @mouseup="getStrokes" />
 
-                <div class="button-container ">
+                <div class="button-container hidden md:block">
                     <button type="button" @click.prevent="removeSavedStrokes()"
                         class="hover:cursor-pointer mt-3 py-1 hover:text-background hover:bg-accent stroke-accent hover:play uppercase text-sm self-center md:self-start border rounded-[50px] px-3 transition duration-300 ease-out bg-background text-accent hover:italic hover:font-bold">
 
@@ -34,6 +34,8 @@
 </template>
 <script>
 import VueDrawingCanvas from "vue-drawing-canvas";
+
+
 
 export default {
     name: "ServeDev",
