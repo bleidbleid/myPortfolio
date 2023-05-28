@@ -13,7 +13,7 @@
                         class="interaction-container hover:cursor-pointer py-3 hover:italic hover:text-accent">
                         multidisciplinary interactive designer </span></router-link> and <a href="https://github.com/bleidbleid" target="_blank"
                         class="frontend-container hover:cursor-pointer py-1 hover:italic hover:text-accent">
-                        front-end developer</a> based in Barcelona.
+                        front-end developer</a> from Barcelona but currently based in Vienna.
             </article>
             <article
                 class="mx-auto max-w-sm sm:items-end items-center text-center flex flex-col sm:flex-row sm:max-w-none">
