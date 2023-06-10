@@ -28,7 +28,7 @@
                         <img class="max-w-full block justify-self-start" :src="project.pictureUrl[0]" 
                             alt="Project image" />
                         <figcaption
-                            class="row-span-2 col-span-1 z-1 pl-2 pr-9 w-48 ml-1 bg-white absolute bottom-1 uppercase left-0 bg-[url('/miniature-project.svg')] bg-contain bg-center bg-no-repeat">
+                            class="row-span-2 col-span-1 z-1 pl-2 pr-9 w-48  ml-1 bg-white absolute bottom-1 uppercase left-0 bg-[url('/miniature-project.svg')] bg-contain bg-center bg-no-repeat">
                                 {{ project.name }}
                         </figcaption>
                     </router-link>

@@ -1,181 +1,182 @@
 [
-    {
-        "id": "toska",
-        "name": "Toska",
-        "subtitle": "Interactive installation",
-        "description": "The “TOSKA” project consists of creating an interactive and immersive experience in a space where the user can express what is inside him in a personal way. The technical part of the project consists of a Raspberry Pi 4, a microphone, five LED strips and Python code.",
-        "pictureUrl": [
-            "/projects/toska1.jpg"
-        ],
-        "embed": "https://www.youtube.com/embed/DHHTkYFOaH8",
-        "type": "installation",
-        "number": "1"
-    },
-    {
-        "id": "dissenyem-comerç",
-        "name": "Dissenyem comerç",
-        "subtitle": "Research - Ajuntament de Barcelona",
-        "description": "Collaboration with the Eix Comercial de Sants-Las Cortes, the Design Museum and Barcelona Activa to carry out an itinerant action in the streets of these neighbourhoods and gather opinions from local residents on local commerce in order to promote commerce in the city.",
-        "pictureUrl": [
-            "/projects/dissenyem1.jpg",
-            "/projects/dissenyem2.jpg"
-        ],
-        "embed": "https://www.youtube.com/embed/TqSu4cAMjfM",
-        "type": "",
-        "number": "2"
-
-    },
-    {
-        "id": "haptic-pants",
-        "name": "Haptic Pants",
-        "subtitle": "Product - Adidas MAKER Lab",
-        "description": "The concept of planetary health encompasses not only ecological health, but also mental health. That is why this product is intended to be a tool to be used before and during anxiety attacks for people who use fidgets to calm down. This project has been realised in collaboration with the Adidas Maker Lab.",
-        "pictureUrl": [
-            "/projects/haptic3.jpg",
-            "/projects/haptic1.jpg",
-            "/projects/haptic2.jpg",
-            "/projects/haptic4.jpg",
-            "/projects/haptic5.jpg"
-        ],
-        "type": "product",
-        "number": "3"
-    },
-    {
-        "id": "call-me",
-        "name": "Call Me",
-        "subtitle": "Presentation card - Adidas MAKER Lab",
-        "description": "Instead of giving a paper business card, this proposal is a pair of business socks with the information embroidered on them. This project has been realised in collaboration with the Adidas Maker Lab.",
-        "pictureUrl": [
-            "/projects/callme.jpg"
-        ],
-        "type": "product",
-        "number": "4"
-    },
-    {
-        "id": "guiri",
-        "name": "Guiri",
-        "subtitle": "Product - Adidas MAKER Lab",
-        "description": "Experimental project to use various techniques for manipulating textile materials and explore what can be done with them. This project was carried out in collaboration with the Adidas Maker Lab and Anna Moya.",
-        "pictureUrl": [
-            "/projects/guiri4.jpeg",
-            "/projects/guiri1.jpeg",
-            "/projects/guiri2.jpeg",
-            "/projects/guiri3.jpeg",
-            "/projects/guiri5.jpeg",
-            "/projects/guiri6.jpeg"
-        ],
-        "type": "product",
-        "number": "5"
-    },
-    {
-        "id": "siau",
-        "name": "Siau",
-        "subtitle": "Concept, UX & UI",
-        "description": "SIAU is a brand of sustainable clothing, which works only with organic fiber fabrics obtained from different suppliers in Barcelona. The project aims to establish a link with records and memory through a reticular graphic system, generating and printing a code for each piece purchased. The user can link a record in the form of an image, audio or text and then access it by scanning their personal code with their mobile phone. Beyond being a clothing brand we want to create a link between the consumer and their clothing based on the values of proximity, inimacy and the idea of permanence.",
-        "pictureUrl": [
-            "/projects/siau1.jpg",
-            "/projects/siau2.jpg",
-            "/projects/siau4.jpg",
-            "/projects/siau5.jpg",
-            "/projects/siau6.jpg",
-            "/projects/siau7.jpg",
-            "/projects/siau8.jpg",
-            "/projects/siau9.jpg"
-        ],
-        "type": "app",
-        "number": "6"
-    },
-    {
-        "id": "urbaservei",
-        "name": "Urbaservei",
-        "subtitle": "UX & UI - Urbaser",
-        "description": "Mobile app for Urbaser, a company in charge of waste management and collection, to be used during the service. The project was developed during 3 months. It began with a UX Research and ended up with the design of the app.",
-        "pictureUrl": [
-            "/projects/urba0.png",
-            "/projects/urba1.png",
-            "/projects/urba2.png",
-            "/projects/urba3.png",
-            "/projects/urba4.png",
-            "/projects/urba5.png",
-            "/projects/urba6.png",
-            "/projects/urba7.png",
-            "/projects/urba8.png",
-            "/projects/urba9.png",
-            "/projects/urba10.png",
-            "/projects/urba11.png",
-            "/projects/urba12.png",
-            "/projects/urba13.png"
-        ],
-        "type": "app",
-        "number": "7"
-    },
-    {
-        "id": "reflexionar",
-        "name": "Reflex(ionar)",
-        "subtitle": "Audivisual piece",
-        "description": "(This video has been made under the premise of making a self-portrait in a 30-second video format). “These days I have been reflecting on self-portraits. I've been looking inside myself and I've lost myself. I have looked in the mirror without finding myself, without recognising myself. That's why I've reflected one mirror in another, to reflect and reflect myself trying to see myself. And instead of seeing better I have lost myself even more”.",
-        "pictureUrl": [
-            "/projects/reflex1.jpg"
-        ],
-        "number": "8"
-    },
-    {
-        "id": "haveyou",
-        "name": "Have you?",
-        "subtitle": "Interactive installation - Elisava",
-        "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
-        "pictureUrl": [
-            "/projects/have-you1.png"
-        ],
-        "type": "experiance",
-        "number": "9"
-    },
-    {
-        "id": "encara",
-        "name": "En-cara",
-        "subtitle": "Interactive installation - Protopixel",
-        "description": "Based on the festivities at the Palace of Versailles in the 17th and 18th centuries and using Protopixel technology and a low-resolution billboard of 48x18 pixels, En-cara was created. It is an interactive installation that uses Processing to detect the faces of individuals. The programme hides the face of the people it detects behind a red dot and projects this image onto the billboard, thus guiding the public's attention to that person. In this way, the sensation of tension that was generated in the partygoers when standing before the king is reproduced, with the feeling that every action or movement that is made will be analysed and judged but without giving absolute prominence by hiding their identity.",
-        "pictureUrl": [
-            "/projects/encara2.jpeg",
-            "/projects/encara1.png"
-        ],
-        "embed": "https://www.youtube.com/embed/QuyuQ-gJ16E",
-        "type": "experiance",
-        "number": "10"
-    },
-    {
-        "id": "portadores",
-        "name": "Portadores de vida",
-        "subtitle": "UX & UI",
-        "description": "Mobile game that explains the way of life in a speculative world where gender is censored, specifically the ritual of the arrival of babies. It involved working on wireframes in both high and low resolution, flowcharts and establishing a colour palette and graphic identity.",
-        "pictureUrl": [
-            "/projects/portadores1.png",
-            "/projects/portadores2.png",
-            "/projects/portadores3.png",
-            "/projects/portadores4.png",
-            "/projects/portadores5.png",
-            "/projects/portadores6.png",
-            "/projects/portadores7.png",
-            "/projects/portadores8.png",
-            "/projects/portadores9.png",
-            "/projects/portadores10.png"
-        ],
-        "type": "app",
-        "number": "11"
-    },
-    {
-        "id": "kaos",
-        "name": "Kaosn't",
-        "subtitle": "Design & Frontend Development",
-        "description": "Frontend project fetching data from the server and returning some data back. Always with a responsive design. Code available in my GitHub page.",
-        "pictureUrl": [
-            "/projects/kaosnt2.png",
-            "/projects/kaosnt1.png",
-            "/projects/kaosnt3.png",
-            "/projects/kaosnt4.png",
-            "/projects/kaosnt5.png"
-        ],
-        "type": "app",
-        "number": "11"
-    }
+  {
+    "id": "raiffeisen",
+    "name": "Raiffeisen Bank",
+    "subtitle": "at RNDM STD.",
+    "description": "Redesign of the design system and full-fidelity wireframing.",
+    "pictureUrl": [
+      "/projects/raiffeisen0.png",
+      "/projects/raiffeisen1.png",
+      "/projects/raiffeisen2.png",
+      "/projects/raiffeisen3.png",
+      "/projects/raiffeisen4.png",
+      "/projects/raiffeisen5.png"
+    ],
+    "type": "ux/ui",
+    "number": "1"
+  },
+  {
+    "id": "toska",
+    "name": "Toska",
+    "subtitle": "Interactive installation",
+    "description": "The “TOSKA” project consists of creating an interactive and immersive experience in a space where the user can express what is inside him in a personal way. The technical part of the project consists of a Raspberry Pi 4, a microphone, five LED strips and Python code.",
+    "pictureUrl": ["/projects/toska1.jpg"],
+    "embed": "https://www.youtube.com/embed/DHHTkYFOaH8",
+    "type": "installation",
+    "number": "1"
+  },
+  {
+    "id": "dissenyem-comerç",
+    "name": "Dissenyem comerç",
+    "subtitle": "Research - Ajuntament de Barcelona",
+    "description": "Collaboration with the Eix Comercial de Sants-Las Cortes, the Design Museum and Barcelona Activa to carry out an itinerant action in the streets of these neighbourhoods and gather opinions from local residents on local commerce in order to promote commerce in the city.",
+    "pictureUrl": ["/projects/dissenyem1.jpg", "/projects/dissenyem2.jpg"],
+    "embed": "https://www.youtube.com/embed/TqSu4cAMjfM",
+    "type": "",
+    "number": "7"
+  },
+  {
+    "id": "call-me",
+    "name": "Call Me",
+    "subtitle": "Presentation card - Adidas MAKER Lab",
+    "description": "Instead of giving a paper business card, this proposal is a pair of business socks with the information embroidered on them. This project has been realised in collaboration with the Adidas Maker Lab.",
+    "pictureUrl": ["/projects/callme.jpg"],
+    "type": "product",
+    "number": "4"
+  },
+  {
+    "id": "portadores",
+    "name": "Portadores de vida",
+    "subtitle": "UX & UI",
+    "description": "Mobile game that explains the way of life in a speculative world where gender is censored, specifically the ritual of the arrival of babies. It involved working on wireframes in both high and low resolution, flowcharts and establishing a colour palette and graphic identity.",
+    "pictureUrl": [
+      "/projects/portadores1.png",
+      "/projects/portadores2.png",
+      "/projects/portadores3.png",
+      "/projects/portadores4.png",
+      "/projects/portadores5.png",
+      "/projects/portadores6.png",
+      "/projects/portadores7.png",
+      "/projects/portadores8.png",
+      "/projects/portadores9.png",
+      "/projects/portadores10.png"
+    ],
+    "type": "ux/ui",
+    "number": "11"
+  },
+  {
+    "id": "kaos",
+    "name": "Kaosn't",
+    "subtitle": "Design & Frontend Development",
+    "description": "Frontend project fetching data from the server and returning some data back. Always with a responsive design. Code available in my GitHub page.",
+    "pictureUrl": [
+      "/projects/kaosnt2.png",
+      "/projects/kaosnt1.png",
+      "/projects/kaosnt3.png",
+      "/projects/kaosnt4.png",
+      "/projects/kaosnt5.png"
+    ],
+    "type": "ux/ui",
+    "number": "11"
+  },
+  {
+    "id": "haptic-pants",
+    "name": "Haptic Pants",
+    "subtitle": "Product - Adidas MAKER Lab",
+    "description": "The concept of planetary health encompasses not only ecological health, but also mental health. That is why this product is intended to be a tool to be used before and during anxiety attacks for people who use fidgets to calm down. This project has been realised in collaboration with the Adidas Maker Lab.",
+    "pictureUrl": [
+      "/projects/haptic3.jpg",
+      "/projects/haptic1.jpg",
+      "/projects/haptic2.jpg",
+      "/projects/haptic4.jpg",
+      "/projects/haptic5.jpg"
+    ],
+    "type": "product",
+    "number": "3"
+  },
+  {
+    "id": "guiri",
+    "name": "Guiri",
+    "subtitle": "Product - Adidas MAKER Lab",
+    "description": "Experimental project to use various techniques for manipulating textile materials and explore what can be done with them. This project was carried out in collaboration with the Adidas Maker Lab and Anna Moya.",
+    "pictureUrl": [
+      "/projects/guiri4.jpeg",
+      "/projects/guiri1.jpeg",
+      "/projects/guiri2.jpeg",
+      "/projects/guiri3.jpeg",
+      "/projects/guiri5.jpeg",
+      "/projects/guiri6.jpeg"
+    ],
+    "type": "product",
+    "number": "5"
+  },
+  {
+    "id": "siau",
+    "name": "Siau",
+    "subtitle": "Concept, UX & UI",
+    "description": "SIAU is a brand of sustainable clothing, which works only with organic fiber fabrics obtained from different suppliers in Barcelona. The project aims to establish a link with records and memory through a reticular graphic system, generating and printing a code for each piece purchased. The user can link a record in the form of an image, audio or text and then access it by scanning their personal code with their mobile phone. Beyond being a clothing brand we want to create a link between the consumer and their clothing based on the values of proximity, inimacy and the idea of permanence.",
+    "pictureUrl": [
+      "/projects/siau1.jpg",
+      "/projects/siau2.jpg",
+      "/projects/siau4.jpg",
+      "/projects/siau5.jpg",
+      "/projects/siau6.jpg",
+      "/projects/siau7.jpg",
+      "/projects/siau8.jpg",
+      "/projects/siau9.jpg"
+    ],
+    "type": "ux/ui",
+    "number": "6"
+  },
+  {
+    "id": "urbaservei",
+    "name": "Urbaservei",
+    "subtitle": "UX & UI - Urbaser",
+    "description": "Mobile app for Urbaser, a company in charge of waste management and collection, to be used during the service. The project was developed during 3 months. It began with a UX Research and ended up with the design of the app.",
+    "pictureUrl": [
+      "/projects/urba0.png",
+      "/projects/urba1.png",
+      "/projects/urba2.png",
+      "/projects/urba3.png",
+      "/projects/urba4.png",
+      "/projects/urba5.png",
+      "/projects/urba6.png",
+      "/projects/urba7.png",
+      "/projects/urba8.png",
+      "/projects/urba9.png",
+      "/projects/urba10.png",
+      "/projects/urba11.png",
+      "/projects/urba12.png",
+      "/projects/urba13.png"
+    ],
+    "type": "ux/ui",
+    "number": "2"
+  },
+  {
+    "id": "reflexionar",
+    "name": "Reflex(ionar)",
+    "subtitle": "Audivisual piece",
+    "description": "(This video has been made under the premise of making a self-portrait in a 30-second video format). “These days I have been reflecting on self-portraits. I've been looking inside myself and I've lost myself. I have looked in the mirror without finding myself, without recognising myself. That's why I've reflected one mirror in another, to reflect and reflect myself trying to see myself. And instead of seeing better I have lost myself even more”.",
+    "pictureUrl": ["/projects/reflex1.jpg"],
+    "number": "8"
+  },
+  {
+    "id": "haveyou",
+    "name": "Have you?",
+    "subtitle": "Interactive installation - Elisava",
+    "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
+    "pictureUrl": ["/projects/have-you1.png"],
+    "type": "experiance",
+    "number": "9"
+  },
+  {
+    "id": "encara",
+    "name": "En-cara",
+    "subtitle": "Interactive installation - Protopixel",
+    "description": "Based on the festivities at the Palace of Versailles in the 17th and 18th centuries and using Protopixel technology and a low-resolution billboard of 48x18 pixels, En-cara was created. It is an interactive installation that uses Processing to detect the faces of individuals. The programme hides the face of the people it detects behind a red dot and projects this image onto the billboard, thus guiding the public's attention to that person. In this way, the sensation of tension that was generated in the partygoers when standing before the king is reproduced, with the feeling that every action or movement that is made will be analysed and judged but without giving absolute prominence by hiding their identity.",
+    "pictureUrl": ["/projects/encara2.jpeg", "/projects/encara1.png"],
+    "embed": "https://www.youtube.com/embed/QuyuQ-gJ16E",
+    "type": "experiance",
+    "number": "10"
+  }
 ]
