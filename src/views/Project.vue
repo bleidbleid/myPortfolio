@@ -1,6 +1,6 @@
 <template>
     <main v-if="!isLoading" class="max-w-full text-lg">
-        <section class="flex flex-col sm:max-h-[30rem] sm:flex-row gap-10">
+        <section class="flex flex-col sm:max-h-[80vh] sm:flex-row gap-10">
 
             <article class="sm:w-6/12">
                 <h2 class="text-4xl font-body font-bold uppercase"> {{ project.name }}</h2>
