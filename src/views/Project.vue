@@ -1,7 +1,7 @@
 <template>
     <main v-if="!isLoading" class="max-w-full text-lg">
         <section class="flex flex-col sm:max-h-[30rem] sm:flex-row gap-10">
-            
+
             <article class="sm:w-6/12">
                 <h2 class="text-4xl font-body font-bold uppercase"> {{ project.name }}</h2>
                 <h3 class="text-2xl uppercase mb-4"> <span class="title-underline">{{ project.subtitle
@@ -21,8 +21,7 @@
                             <path
                                 d="M4.93848 28.5706C7.73445 28.5706 10.5304 28.5706 13.3264 28.5706C15.786 28.5706 18.2194 28.0454 20.6932 28.0454"
                                 stroke="#FDFDFF" stroke-width="2" stroke-linecap="round" />
-                            <path d="M4.41309 33.5596H21.2181" stroke="#FDFDFF" stroke-width="2"
-                                stroke-linecap="round" />
+                            <path d="M4.41309 33.5596H21.2181" stroke="#FDFDFF" stroke-width="2" stroke-linecap="round" />
                         </svg>
                     </span>
                     <span
@@ -31,7 +30,7 @@
                     <span class="relative invisible">View Project</span>
                 </a>
             </article>
-            <figure class="sm:w-6/12 sm:overflow-x-hidden sm:overflow-y-scroll flex flex-col gap-4">
+            <figure class="sm:w-6/12 sm:overflow-x-hidden sm:overflow-y-scroll flex flex-col gap-4 h-auto">
                 <iframe v-if="project.embed" width="100%" height="100%" :src="project.embed" :title="project.name"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
