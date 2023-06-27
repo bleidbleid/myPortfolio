@@ -6,8 +6,8 @@
                 Exhibitions</span></h1>
                 <!-- <h2 class="text-3xl font-bold mb-2 italic sm:block">Present to Past</h2> -->
         <section>
-            <p class="exhibit font-body text-lg">"MyMachine". Disseny Hub Barcelona. Barcelona. January 2023.
-            </p>
+            <!-- <p class="exhibit font-body text-lg">"MyMachine". Disseny Hub Barcelona. Barcelona. January 2023.
+            </p> -->
             <p class="exhibit font-body text-lg">"Water Matters. Sustainable Challenge: Industrial Symbiosis: A Booster
                 to Circular Fashion". Disseny Hub Barcelona. Barcelona. November 2021.
             </p>
