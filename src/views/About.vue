@@ -18,7 +18,7 @@
                     Maria is a human</span> eager to work with you!
             </article>
             <!-- <article class="mt-12 font-detail text-4xl self-center md:self-start"> <span class="font-detailed text-accent">Maria is eage</span>r to work with you!</article> -->
-            <a href="/pdf/MariaBladé_CV.pdf" id="resume"
+            <a href="/MariaBladé_CV.pdf" id="resume"
                 class="mt-18 hover:play uppercase text-xl self-center md:self-start border rounded-[50px] w-max mt-8 px-6 py-2 bg-accent text-background hover:italic hover:font-bold "
                 download>Download Maria's resume!</a>
 
