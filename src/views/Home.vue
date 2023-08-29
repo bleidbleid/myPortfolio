@@ -31,10 +31,10 @@
                     </div>
                     <div class="flex gap-3 content-startjustify-center mt-2 sm:mt-0">
                         <img class="hidden sm:block" src="/email-arrow.svg" alt="">
-                        <a href="mailto:mariablade2000@gmail.com">
+                        <a href="mailto:mblablade@gmail.com">
                             <h1
                                 class="text-center text-lg lg:text-2xl hover:italic hover:text-accent">
-                                mariablade2000@gmail.com </h1>
+                                mblablade@gmail.com </h1>
                         </a>
 
                     </div>
