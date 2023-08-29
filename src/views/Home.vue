@@ -24,7 +24,7 @@
                 <div class="flex flex-col mt-2 sm:mt-0">
                     <div class="flex gap-3 justify-center sm:justify-start">
                         <img class="hidden sm:block " src="/github-arrow.svg" alt="">
-                        <p>
+                        <p
                             class="text-center hover:italic hover:text-accent text-lg lg:text-2xl">
                             github.com/bleidbleid
                         </p>
