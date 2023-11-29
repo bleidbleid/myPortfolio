@@ -4,10 +4,11 @@
         "name": "Toska",
         "subtitle": "Interactive installation",
         "description": "The “TOSKA” project consists of creating an interactive and immersive experience in a space where the user can express what is inside him in a personal way. The technical part of the project consists of a Raspberry Pi 4, a microphone, five LED strips and Python code.",
-        "pictureUrl": [
-            "/public/projects/toska/img1.jpg"
-        ]
-    },
+        "pictureUrl": ["/projects/toska1.jpg"],
+        "embed": "https://www.youtube.com/embed/DHHTkYFOaH8",
+        "type": "installation",
+        "number": "1"
+      },
     {
         "id": "dissenyem-comerç",
         "name": "Dissenyem comerç",
@@ -29,9 +30,11 @@
         "id": "call-me",
         "name": "Call Me",
         "subtitle": "Presentation card - Adidas MAKER Lab",
-        "description": "",
-        "pictureUrl": ""
-    },
+        "description": "Instead of giving a paper business card, this proposal is a pair of business socks with the information embroidered on them. This project has been realised in collaboration with the Adidas Maker Lab.",
+        "pictureUrl": ["/projects/callme.jpg"],
+        "type": "product",
+        "number": "4"
+      },
     {
         "id": "guiri",
         "name": "Guiri",
@@ -64,16 +67,19 @@
         "id": "reflexionar",
         "name": "Reflex(ionar)",
         "subtitle": "Audivisual piece",
-        "description": "(This video has been made under the premise of making a self-portrait in a 30-second video format).“These days I have been reflecting on self-portraits. I've been looking inside myself and I've lost myself. I have looked in the mirror without finding myself, without recognising myself. That's why I've reflected one mirror in another, to reflect and reflect myself trying to see myself. And instead of seeing better I have lost myself even more”.",
-        "pictureUrl": ""
-    },
-    {
+        "description": "(This video has been made under the premise of making a self-portrait in a 30-second video format). “These days I have been reflecting on self-portraits. I've been looking inside myself and I've lost myself. I have looked in the mirror without finding myself, without recognising myself. That's why I've reflected one mirror in another, to reflect and reflect myself trying to see myself. And instead of seeing better I have lost myself even more”.",
+        "pictureUrl": ["/projects/reflex1.jpg"],
+        "number": "8"
+      },
+      {
         "id": "haveyou",
         "name": "Have you?",
-        "subtitle": "Interactive installation",
+        "subtitle": "Interactive installation - Elisava",
         "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
-        "pictureUrl": ""
-    },
+        "pictureUrl": ["/projects/have-you1.png"],
+        "type": "experiance",
+        "number": "9"
+      },
     {
         "id": "encara",
         "name": "En-cara",
@@ -130,13 +136,28 @@
         "description": "Cubeperate is a cube with 20 holes where cooperation is necessary to transport the maximum amount of water and, therefore, serves to quantify it. It was developed as an interactive artefact to discuss future scenarios and generate debate on the importance of collaboration when making decisions that affect a community.",
         "pictureUrl": ""
     },
+
     {
         "id": "portadores",
         "name": "Portadores de vida",
         "subtitle": "UX & UI",
         "description": "Mobile game that explains the way of life in a speculative world where gender is censored, specifically the ritual of the arrival of babies. It involved working on wireframes in both high and low resolution, flowcharts and establishing a colour palette and graphic identity.",
-        "pictureUrl": ""
-    },
+        "pictureUrl": [
+          "/projects/portadores1.png",
+          "/projects/portadores2.png",
+          "/projects/portadores3.png",
+          "/projects/portadores4.png",
+          "/projects/portadores5.png",
+          "/projects/portadores6.png",
+          "/projects/portadores7.png",
+          "/projects/portadores8.png",
+          "/projects/portadores9.png",
+          "/projects/portadores10.png"
+        ],
+        "type": "ux/ui",
+        "number": "11"
+      },
+
     {
         "id": "braves",
         "name": "Braves per Skype",
