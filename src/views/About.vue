@@ -7,15 +7,12 @@
       <article class="mt-6 md:w-2/3 font-body">
         <span class="designer-container p-6">Maria is a designer</span> whose
         work aims to generate a physical interaction even from a digital
-        environment. She experiments with the phygital, and seeks debate through
-        artifacts and interactive experiances. Maria always tries to provoke
-        complicity between people, either by creating new bonds or reinforcing
-        existing ones.
+        environment. She is captivated by the intersection between the tangible and virtual realms, exploring how digital elements have the potential to enhance the human experience.
       </article>
       <article class="mt-6 md:w-2/3 font-body">
         <span class="programmer-underline py-1"> Maria is a programmer</span>
         who loves working and exploring with any tech she encouters, not only as
-        a front-end developer, but also creating with Arduino and Processing.
+        a front-end developer, but also as a code artist, creating with Arduino and Processing.
       </article>
       <article class="mt-6 md:w-2/3 font-body">
         <span class="human-underline py-1 px-2"> Maria is a human</span> eager

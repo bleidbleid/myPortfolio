@@ -1,15 +1,14 @@
 <template>
 
     <main id="app">
-        <section class="flex-row flex justify-center align-middle">
-            <div class="source relative">
+        <section class="flex-row w-screen margin-0 flex flex-col justify-center align-middle source relative h-11/12">
                 <div class="md:absolute top-0 -z-20 text-center w-full">
-                    <p class=" font-display font-bold text-accent md:leading-[9rem] text-[80px] md:text-[150px]">Error
+                    <p class=" w-screen font-display font-bold text-accent md:leading-[9rem] text-[80px] md:text-[150px]">Error
                         404</p>
-                    <p class="md:text-4xl text-3xl">Oh, no! The page you were looking for is not found.</p>
-                    <p class="text-2xl hidden md:block ">Sorry you got lost, but oh!, you found a whiteboard.</p>
+                    <p class="md:text-4xl text-3xl w-full">Oh, no! The page you were looking for is not found.</p>
+                    <p class="text-2xl hidden md:block w-full">Sorry you got lost, but oh!, you found a whiteboard.</p>
                 </div>
-                <vue-drawing-canvas ref="VueCanvasDrawing" class="hidden md:block cursor-[url(https://cur.cursors-4u.net/others/oth-7/oth697.cur),_pointer]" :width="740" :height="650" :stroke-type="strokeType"
+                <vue-drawing-canvas ref="VueCanvasDrawing" class="hidden md:block cursor-[url(https://cur.cursors-4u.net/others/oth-7/oth697.cur),_pointer]" :width="max" :height="max" :stroke-type="strokeType"
                     :line-cap="lineCap" :line-join="lineJoin" :lineWidth="line" :color="color"
                     :background-color="backgroundColor" :initial-image="initialImage" saveAs="png" :styles="{
                         border: 'solid 1px #000',
@@ -23,7 +22,7 @@
                     </button>
 
                 </div>
-            </div>
+        
             <!-- TODO cursor de llapis -->
         </section>
     </main>

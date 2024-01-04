@@ -43,6 +43,7 @@ const routes = [
     name: "NotFound",
     component: () => import("../views/NotFound.vue"),
   },
+
 ];
 
 // 3. Create the router instance and pass the `routes` option
