@@ -15,9 +15,9 @@
   font-family: "Escolar1";
   src: url("/Escolar_G.TTF") format("truetype");
 }
-* {
+/* * {
   border:  solid 1px red !important;
-  }
+  } */
 
 
 /* button,
