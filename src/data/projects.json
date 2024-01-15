@@ -57,6 +57,15 @@
     ],
     "type": "product",
     "number": "3"
+  },     {
+    "id": "toska",
+    "name": "Toska",
+    "subtitle": "Interactive installation",
+    "description": "The “TOSKA” project consists of creating an interactive and immersive experience in a space where the user can express what is inside him in a personal way. The technical part of the project consists of a Raspberry Pi 4, a microphone, five LED strips and Python code.",
+    "pictureUrl": ["/projects/toska1.jpg"],
+    "embed": "https://www.youtube.com/embed/DHHTkYFOaH8",
+    "type": "installation",
+    "number": "1"
   },
 
   {
@@ -129,5 +138,14 @@
     "embed": "https://www.youtube.com/embed/QuyuQ-gJ16E",
     "type": "experiance",
     "number": "10"
+  },
+  {
+    "id": "haveyou",
+    "name": "Have you?",
+    "subtitle": "Interactive installation - Elisava",
+    "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
+    "pictureUrl": ["/projects/have-you1.png"],
+    "type": "experiance",
+    "number": "9"
   }
 ]
