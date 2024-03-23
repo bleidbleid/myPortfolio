@@ -172,5 +172,17 @@
     "pictureUrl": ["/projects/have-you1.png"],
     "type": "experiance",
     "number": "9"
-  }
+  },
+  {
+    "id": "tomwaits",
+    "name": "Tom Waits CD",
+    "subtitle": "Graphic and Packaging design",
+    "description": "Design for a new reedition of Tom Waits's balads recopilation: Beautiful Maladies",
+    "pictureUrl": [
+      "/projects/tomwaits1.png",
+      "/projects/tomwaits2.png",
+      "/projects/tomwaits3.png",
+      "/projects/tomwaits4.png"
+
+    ] }
 ]
