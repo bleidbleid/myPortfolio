@@ -140,6 +140,31 @@
     "number": "10"
   },
   {
+    "id": "cleanosign",
+    "name": "Cleanosign",
+    "subtitle": "Logo",
+    "description": "Logo design for a Swiss business experts in installing, mantaining and cleaning solar panels",
+    "pictureUrl": [
+      "/projects/cleanosign00.png",
+      "/projects/cleanosign01.png",
+      "/projects/cleanosign02.png",
+      "/projects/cleanosign03.png",
+      "/projects/cleanosign04.png",
+      "/projects/cleanosign05.png",
+      "/projects/cleanosign06.png",
+      "/projects/cleanosign07.png",
+      "/projects/cleanosign08.png",
+      "/projects/cleanosign09.png",
+      "/projects/cleanosign10.png",
+      "/projects/cleanosign11.png",
+      "/projects/cleanosign12.png",
+      "/projects/cleanosign13.png",
+      "/projects/cleanosign14.png",
+      "/projects/cleanosign15.png"
+    ],    "type": "graphic",
+    "number": "12"
+  },
+  {
     "id": "haveyou",
     "name": "Have you?",
     "subtitle": "Interactive installation - Elisava",

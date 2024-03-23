@@ -9,6 +9,21 @@
         "type": "installation",
         "number": "1"
       },
+      {
+        "id": "kaos",
+        "name": "Kaosn't",
+        "subtitle": "Design & Frontend Development",
+        "description": "Frontend project fetching data from the server and returning some data back. Always with a responsive design. Code available in my GitHub page.",
+        "pictureUrl": [
+          "/projects/kaosnt2.png",
+          "/projects/kaosnt1.png",
+          "/projects/kaosnt3.png",
+          "/projects/kaosnt4.png",
+          "/projects/kaosnt5.png"
+        ],
+        "type": "ux/ui",
+        "number": "11"
+      },
     {
         "id": "dissenyem-comerç",
         "name": "Dissenyem comerç",
@@ -23,9 +38,17 @@
         "id": "haptic-pants",
         "name": "Haptic Pants",
         "subtitle": "Product - Adidas MAKER Lab",
-        "description": "",
-        "pictureUrl": "11.622713"
-    },
+        "description": "The concept of planetary health encompasses not only ecological health, but also mental health. That is why this product is intended to be a tool to be used before and during anxiety attacks for people who use fidgets to calm down. This project has been realised in collaboration with the Adidas Maker Lab.",
+        "pictureUrl": [
+          "/projects/haptic3.jpg",
+          "/projects/haptic1.jpg",
+          "/projects/haptic2.jpg",
+          "/projects/haptic4.jpg",
+          "/projects/haptic5.jpg"
+        ],
+        "type": "product",
+        "number": "3"
+      }, 
     {
         "id": "call-me",
         "name": "Call Me",
@@ -35,13 +58,22 @@
         "type": "product",
         "number": "4"
       },
-    {
+      {
         "id": "guiri",
         "name": "Guiri",
         "subtitle": "Product - Adidas MAKER Lab",
-        "description": "",
-        "pictureUrl": ""
-    },
+        "description": "Experimental project to use various techniques for manipulating textile materials and explore what can be done with them. This project was carried out in collaboration with the Adidas Maker Lab and Anna Moya.",
+        "pictureUrl": [
+          "/projects/guiri4.jpeg",
+          "/projects/guiri1.jpeg",
+          "/projects/guiri2.jpeg",
+          "/projects/guiri3.jpeg",
+          "/projects/guiri5.jpeg",
+          "/projects/guiri6.jpeg"
+        ],
+        "type": "product",
+        "number": "5"
+      },
     {
         "id": "ludocontact",
         "name": "Ludocontact",
@@ -53,9 +85,20 @@
         "id": "siau",
         "name": "Siau",
         "subtitle": "Concept, UX & UI",
-        "description": "",
-        "pictureUrl": ""
-    },
+        "description": "SIAU is a brand of sustainable clothing, which works only with organic fiber fabrics obtained from different suppliers in Barcelona. The project aims to establish a link with records and memory through a reticular graphic system, generating and printing a code for each piece purchased. The user can link a record in the form of an image, audio or text and then access it by scanning their personal code with their mobile phone. Beyond being a clothing brand we want to create a link between the consumer and their clothing based on the values of proximity, inimacy and the idea of permanence.",
+        "pictureUrl": [
+          "/projects/siau1.jpg",
+          "/projects/siau2.jpg",
+          "/projects/siau4.jpg",
+          "/projects/siau5.jpg",
+          "/projects/siau6.jpg",
+          "/projects/siau7.jpg",
+          "/projects/siau8.jpg",
+          "/projects/siau9.jpg"
+        ],
+        "type": "ux/ui",
+        "number": "6"
+      },
     {
         "id": "urbaservei",
         "name": "Urbaservei",
@@ -173,11 +216,17 @@
         "pictureUrl": ""
     },
     {
-        "name": "",
-        "subtitle": "",
-        "description": "",
-        "pictureUrl": ""
-    },
+        "id": "tomwaits",
+        "name": "Tom Waits CD",
+        "subtitle": "Graphic and Packaging design",
+        "description": "Design for a new reedition of Tom Waits's balads recopilation: Beautiful Maladies",
+        "pictureUrl": [
+          "/projects/tomwaits1.png",
+          "/projects/tomwaits2.png",
+          "/projects/tomwaits3.png",
+          "/projects/tomwaits4.png"
+    
+        ] },
     {
         "name": "",
         "subtitle": "",

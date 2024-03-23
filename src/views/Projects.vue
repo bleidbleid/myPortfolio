@@ -18,7 +18,7 @@
             </ul>
             <img v-show="!allProj" class="block sm:hidden px-5 mt-4 mb-8" src="/separator-mobile.svg" alt="">
             <img v-show="!allProj" class="hidden sm:block px-5 h-[500px]" src="/separator-projects.svg" alt="">
-            <article class="columns-1 md:columns-4 lg:columns-5 gapx-2.5 gapy-4">
+            <article class="columns-1 md:columns-2 lg:columns-4 gapx-2.5 gapy-4">
                 <figure v-show="allProj" v-for="project in myProjects"
                     class="m-0 grid mb-2.5 break-inside-avoid hover:italic  hover:text-accent font-normal figure">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }" class="relative">
