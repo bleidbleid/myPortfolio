@@ -28,6 +28,26 @@
   },
 
   {
+    "id": "weyland",
+    "name": "Weyland Yutani Corporation Page",
+    "subtitle": "UX-UI Design",
+    "description": "Fictional redesign of the corporate website for Weyland-Yutani Corporation, a renowned entity in the realm of futuristic technology and innovation. The objective was to create a web platform that not only showcased the company's prowess but also exuded a sense of power and solidity, aligning with its esteemed reputation in the industry..",
+    "pictureUrl": [
+      "/projects/weyland3.png",
+      "/projects/weyland9.png",
+      "/projects/weyland8.png",
+      "/projects/weyland7.png",
+      "/projects/weyland4.png",
+      "/projects/weyland6.png",
+      "/projects/weyland5.png",
+      "/projects/weyland1.png",
+      "/projects/weyland2.png"
+    ],
+    "type": "ux/ui",
+    "number": "4"
+  },
+
+  {
     "id": "kaos",
     "name": "Kaosn't",
     "subtitle": "Design & Frontend Development",
