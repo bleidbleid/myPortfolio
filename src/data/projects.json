@@ -62,22 +62,7 @@
     "type": "ux/ui",
     "number": "11"
   },
-
-  {
-    "id": "haptic-pants",
-    "name": "Haptic Pants",
-    "subtitle": "Product - Adidas MAKER Lab",
-    "description": "The concept of planetary health encompasses not only ecological health, but also mental health. That is why this product is intended to be a tool to be used before and during anxiety attacks for people who use fidgets to calm down. This project has been realised in collaboration with the Adidas Maker Lab.",
-    "pictureUrl": [
-      "/projects/haptic3.jpg",
-      "/projects/haptic1.jpg",
-      "/projects/haptic2.jpg",
-      "/projects/haptic4.jpg",
-      "/projects/haptic5.jpg"
-    ],
-    "type": "product",
-    "number": "3"
-  },     {
+    {
     "id": "toska",
     "name": "Toska",
     "subtitle": "Interactive installation",
