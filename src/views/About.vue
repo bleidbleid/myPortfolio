@@ -5,9 +5,7 @@
     </h1>
     <section class="flex flex-col mb-8">
       <article class="mt-6 md:w-2/3 font-body">
-        <span class="designer-container p-6">Maria is a designer</span> whose
-        work aims to generate a physical interaction even from a digital
-        environment. She is captivated by the intersection between the tangible and virtual realms, exploring how digital elements have the potential to enhance the human experience.
+        <span class="designer-container p-6">Maria is a designer</span> who takes every opportunity to learn and participate in projects and events. Working in an organized and proactive way, both individually and as part of a team, and having confidence in oneself and in others as a base.
       </article>
       <article class="mt-6 md:w-2/3 font-body">
         <span class="programmer-underline py-1"> Maria is a programmer</span>
