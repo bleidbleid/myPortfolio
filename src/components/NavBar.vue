@@ -68,7 +68,7 @@ import { ref } from 'vue';
 const navigation = ref([
   { name: 'About', to: 'about' },
   { name: 'Projects', to: 'projects' },
-  // { name: 'Exhibitions', to: 'exhibitions' },
+//  { name: 'Press', to: 'press' },
 ])
 </script>
 

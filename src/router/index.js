@@ -33,9 +33,9 @@ const routes = [
     ],
   },
   {
-    path: "/exhibitions",
-    name: "exhibitions",
-    component: () => import("../views/Exhibitions.vue"),
+    path: "/press",
+    name: "press",
+    component: () => import("../views/Press.vue"),
   },
 
   {
