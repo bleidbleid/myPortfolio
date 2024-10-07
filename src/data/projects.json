@@ -23,7 +23,7 @@
     "description": "Collaboration with the Eix Comercial de Sants-Las Cortes, the Design Museum and Barcelona Activa to carry out an itinerant action in the streets of these neighbourhoods and gather opinions from local residents on local commerce in order to promote commerce in the city.",
     "pictureUrl": ["/projects/dissenyem1.jpg", "/projects/dissenyem2.jpg"],
     "embed": "https://www.youtube.com/embed/TqSu4cAMjfM",
-    "type": "",
+    "type": "research",
     "number": "7"
   },
 
@@ -130,7 +130,8 @@
       "/projects/urba12.png",
       "/projects/urba13.png"
     ],
-    "type": "ux/ui",
+    "type": ["ux/ui",
+    "research"],
     "number": "2"
   },
 
@@ -141,7 +142,7 @@
     "description": "Based on the festivities at the Palace of Versailles in the 17th and 18th centuries and using Protopixel technology and a low-resolution billboard of 48x18 pixels, En-cara was created. It is an interactive installation that uses Processing to detect the faces of individuals. The programme hides the face of the people it detects behind a red dot and projects this image onto the billboard, thus guiding the public's attention to that person. In this way, the sensation of tension that was generated in the partygoers when standing before the king is reproduced, with the feeling that every action or movement that is made will be analysed and judged but without giving absolute prominence by hiding their identity.",
     "pictureUrl": ["/projects/encara2.jpeg", "/projects/encara1.png"],
     "embed": "https://www.youtube.com/embed/QuyuQ-gJ16E",
-    "type": "experiance",
+    "type": "installation",
     "number": "10"
   },
   {
@@ -166,7 +167,8 @@
       "/projects/cleanosign13.png",
       "/projects/cleanosign14.png",
       "/projects/cleanosign15.png"
-    ],    "type": "graphic",
+    ],
+    "type": "graphic",
     "number": "12"
   },
   {
@@ -175,7 +177,7 @@
     "subtitle": "Interactive installation - Elisava",
     "description": "Temporary installation to make visible the different relationships within the Elisava community. It also made it possible to specify the type of relationship involved.",
     "pictureUrl": ["/projects/have-you1.png"],
-    "type": "experiance",
+    "type": "installation",
     "number": "9"
   },
   {
@@ -183,6 +185,7 @@
     "name": "Tom Waits CD",
     "subtitle": "Graphic and Packaging design",
     "description": "Design for a new reedition of Tom Waits's balads recopilation: Beautiful Maladies",
+    "type": "graphic",
     "pictureUrl": [
       "/projects/tomwaits1.png",
       "/projects/tomwaits2.png",
