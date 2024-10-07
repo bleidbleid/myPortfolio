@@ -6,7 +6,7 @@
     <section class="flex flex-col mb-8">
       <article>
         <a href="https://www.rtve.es/play/videos/helvetica/helvetica-disseny-institucional/5854379/">
-          <img src="public/projects/helvetica.png" alt="">
+          <!-- <img src="public/projects/helvetica.png" alt=""> -->
         </a>      
       </article>
     </section>
