@@ -6,8 +6,12 @@
                     class="projects-underline hover:cursor-pointer transition-all duration-300 transform ease hover:italic hover:text-accent">
                     Projects</span></h1>
         </router-link>
-        <!-- Chip Tags Section -->
-<section class="mb-4 flex items-center">
+
+        
+        <!-- Chip Tags Section Filtres -->
+<section 
+v-if="allProj"
+class="mb-4 flex items-center flex-wrap">
     <span
         v-for="type in projectTypes"
         :key="type"
@@ -17,8 +21,6 @@
     >
         {{ type }}
     </span>
-
-
 
 
     <span
