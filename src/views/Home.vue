@@ -1,5 +1,5 @@
 <template>
-    <main class="h-[600px] bg-background lg:px-16 sm:px-8 px-4">
+    <main class="h-[600px] lg:px-16 sm:px-8 px-4">
         <section class="flex justify-around flex-col mx-auto h-full text-center text-3xl sm:text-4xl lg:text-6xl">
             <article> <span class="hola-container">Hola! </span> </article>
 

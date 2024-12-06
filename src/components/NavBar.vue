@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-background font-display relative">
+  <div class="bg-white font-display relative">
     <div class="max-w-full px-4 md:px-8 lg:px-16">
       <div class="relative flex h-16 items-center justify-between">
         <!-- Mobile menu button -->
