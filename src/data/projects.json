@@ -43,7 +43,8 @@
       "/projects/weyland1.png",
       "/projects/weyland2.png"
     ],
-    "type": "ux/ui",
+    "type": ["ux/ui",
+    "graphic"],
     "number": "4"
   },
 
