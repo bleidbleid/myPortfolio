@@ -1,5 +1,15 @@
 [
   {
+    "id": "flexdesk-research",
+    "name": "Enterprise Space Management",
+    "subtitle": "Advanced UX Research & System Strategy",
+    "description": "An in-depth UX analysis of a hybrid work hot-desking application across multiple company sites (Barcelona and Girona). Conducted user interviews and a Hierarchical Task Analysis (HTA) to uncover core workplace friction points like 'ghost bookings' and lack of software integration. Synthesized insights using the 5I Framework (Integration, Information, Intention, Environment, Institution) to propose strategic enterprise product features, including dynamic waiting lists and automated inventory releasing.",
+    "pictureUrl": ["/projects/flexdesk-research.png"],
+    "type": "research",
+    "number": "0",
+    "tags": ["UX Research", "System Strategy", "Enterprise UX", "Hierarchical Task Analysis (HTA)", "User Interviews", "B2B Platfoms"]
+  },
+  {
     "id": "raiffeisen",
     "name": "Raiffeisen Bank",
     "subtitle": "at RNDM STD.",
@@ -15,7 +25,6 @@
     "type": "ux/ui",
     "number": "1"
   },
-
   {
     "id": "dissenyem-comerç",
     "name": "Dissenyem comerç",
@@ -26,7 +35,6 @@
     "type": "research",
     "number": "7"
   },
-
   {
     "id": "weyland",
     "name": "Weyland Yutani",
@@ -43,11 +51,9 @@
       "/projects/weyland1.png",
       "/projects/weyland2.png"
     ],
-    "type": ["ux/ui",
-    "graphic"],
+    "type": ["ux/ui", "graphic"],
     "number": "4"
   },
-
   {
     "id": "kaos",
     "name": "Kaosn't",
@@ -63,7 +69,7 @@
     "type": "ux/ui",
     "number": "11"
   },
-    {
+  {
     "id": "toska",
     "name": "Toska",
     "subtitle": "Interactive installation",
@@ -73,7 +79,6 @@
     "type": "installation",
     "number": "1"
   },
-
   {
     "id": "guiri",
     "name": "Guiri",
@@ -90,7 +95,6 @@
     "type": "product",
     "number": "5"
   },
-
   {
     "id": "siau",
     "name": "Siau",
@@ -109,7 +113,6 @@
     "type": "ux/ui",
     "number": "6"
   },
-
   {
     "id": "urbaservei",
     "name": "Urbaservei",
@@ -131,11 +134,9 @@
       "/projects/urba12.png",
       "/projects/urba13.png"
     ],
-    "type": ["ux/ui",
-    "research"],
+    "type": ["ux/ui", "research"],
     "number": "2"
   },
-
   {
     "id": "encara",
     "name": "En-cara",
@@ -192,6 +193,6 @@
       "/projects/tomwaits2.png",
       "/projects/tomwaits3.png",
       "/projects/tomwaits4.png"
-
-    ] }
+    ]
+  }
 ]
