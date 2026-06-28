@@ -1,9 +1,10 @@
 [
   {
     "id": "flexdesk-research",
-    "name": "Enterprise Space Management",
+    "name": "Hot Desks",
     "subtitle": "Advanced UX Research & System Strategy",
     "description": "An in-depth UX analysis of a hybrid work hot-desking application across multiple company sites (Barcelona and Girona). Conducted user interviews and a Hierarchical Task Analysis (HTA) to uncover core workplace friction points like 'ghost bookings' and lack of software integration. Synthesized insights using the 5I Framework (Integration, Information, Intention, Environment, Institution) to propose strategic enterprise product features, including dynamic waiting lists and automated inventory releasing.",
+    "coverUrl": "/projects/flexdesk-portada.png",
     "pictureUrl": ["/projects/flexdesk-research.png"],
     "type": "research",
     "number": "0",

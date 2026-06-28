@@ -1,4 +1,3 @@
-
 <template>
     <main class="min-h-min px-4 md:px-8 mb-4 lg:px-16" :key="route.name">
         <router-link :to="{ name: 'projects' }">
@@ -36,7 +35,7 @@ class="mb-4 flex items-center flex-wrap">
         <section class="flex h-min flex-col sm:flex-row">
             <ul v-show="!allProj"
                 class=" flex md:flex-col sm:block gap-y-2 md:gap-y-0 flex-wrap justify-between sm:flex-nowrap min-w-fit h-min">
-                <li v-for="project in myProjects">
+                <li v-for="project in myProjects" :key="project.id">
                     
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }"
                         class="px-3 md:m-1 md:py-1 border-solid border-[1px] w-full border-accent sm:hover:bg-transparent hover:italic hover:text-accent sm:hover:border-transparent active:bg-accent sm:active:bg-transparent active:text-background sm:active:text-main rounded-full sm:rounded-none active:border-accent sm:border-none">
@@ -47,11 +46,12 @@ class="mb-4 flex items-center flex-wrap">
             <img v-show="!allProj" class="block sm:hidden px-5 mt-4 mb-8" src="/separator-mobile.svg" alt="">
             <img v-show="!allProj" class="hidden sm:block px-5 h-[500px]" src="/separator-projects.svg" alt="">
             <article class="columns-1 md:columns-2 lg:columns-4 gapx-2.5 gapy-4">
-                <figure v-show="allProj" v-for="project in filteredProjects"
+                <figure v-show="allProj" v-for="project in filteredProjects" :key="project.id"
                     class="m-0 grid mb-2.5 break-inside-avoid hover:italic  hover:text-accent font-normal figure">
                     <router-link :to="{ name: 'project', params: { id: `${project.id}` } }" class="relative">
                     
-                        <img class="max-w-full block justify-self-start" :src="project.pictureUrl[0]" 
+                        <!-- MODIFICAT: Ara busca primer la coverUrl personalitzada, si no existeix agafa la primera de pictureUrl -->
+                        <img class="max-w-full block justify-self-start" :src="project.coverUrl || project.pictureUrl[0]" 
                             alt="Project image" />
                         <figcaption
                             class="row-span-2 col-span-1 z-1 pl-2 pr-9 w-48  ml-1 bg-white absolute bottom-1 uppercase left-0 bg-[url('/miniature-project.svg')] bg-contain bg-center bg-no-repeat">
